@@ -34,14 +34,14 @@ def get_json(url,page):
 
 #实现翻页，结果写入excel文件
 def main():    
-   url="https://www.lagou.com/jobs/positionAjax.json?city=%E6%B7%B1%E5%9C%B3&needAddtionalResult=false"
+   url="https://www.lagou.com/jobs/positionAjax.json"
    page=1    
    info_result=[]    
    title = ['公司全名', '公司规模', '职位名称', '教育程度', '融资情况', "薪资水平", "城市", "区域", "优势", "工作经验"]    
    info_result.append(title)    
    while page < 31:        
       info=get_json(url,page)        
-      info_result=info_result+info        
+      info_result=info_result+info
       page+=1        
       workbook = xlwt.Workbook(encoding="utf-8")        
       booksheet = workbook.add_sheet('HR', cell_overwrite_ok=True)        

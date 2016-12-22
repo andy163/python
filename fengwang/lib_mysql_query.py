@@ -18,7 +18,7 @@
 
 import os,sys
 import MySQLdb
-import ConfigParser 
+import ConfigParser
  
 # import HiveLogger          #写日志
 # y=HiveLogger.HiveLogger(__file__)  #获取日志对象
@@ -38,7 +38,7 @@ class lib_mysql_query(object):
                 db_pwd = cf.get("baseinfo", "db_pwd")
                 db_name = cf.get("baseinfo", "db_name")
                 #db = MySQLdb.connect(host = '192.168.1.2', user='root',passwd = 'invenodb123',db = 'db_mta')
-		db = MySQLdb.connect(host = db_ip, user=db_user,passwd = db_pwd,db = db_name)		
+		db = MySQLdb.connect(host = db_ip, user=db_user,passwd = db_pwd,db = db_name)
 		cursor = db.cursor()
                 db.set_character_set('utf8')
                 cursor.execute('SET NAMES utf8;') 
