@@ -22,7 +22,7 @@ class Spider:
         self.site.append([ifengName,ifengUrl,ifengListRegular,ifengContentRegular]);
         
         
-        self.imgDir=r'g:\img\\'
+        self.imgDir=r'D:\img\\'
         self.source='凤凰资讯'
         self.imgUrl='http://localhost:8080/img/'
         self.patt="/";
@@ -72,7 +72,7 @@ class Spider:
         return images
     
     def saveImg(self,imageURL,fileName,imgPath):
-        print "Download Image File=", fileName
+        print ("Download Image File=", fileName)
         r = requests.get(imageURL, stream=True) # here we need to set stream = True parameter
         with open(imgPath+self.patt+fileName, 'wb') as f:
             for chunk in r.iter_content(chunk_size=1024):
@@ -85,11 +85,11 @@ class Spider:
         path = path.strip()
         isExists=os.path.exists(path)
         if not isExists:
-            print u"not the ",path,u'will create'
+            print (u"not the ",path,u'will create')
             os.makedirs(path)
             return True
         else:
-            print u"have the path",path
+            print (u"have the path",path)
             return False
     def saveAllImgs(self,content):
         now_year_month_day = str(datetime.datetime.now().strftime("%Y%m%d"));
@@ -107,12 +107,12 @@ class Spider:
         contents = self.getContents(url,listRegular);
         today = datetime.datetime.now()
         current_year = today.strftime('%Y');
-        print current_year
+        print (current_year)
         for item in contents:
-            print '------ fetch  ------ '+item[2]
-            print u"date:",item[0].decode("utf8","ignore").encode("gbk","ignore")
-            print u" url:",item[1].decode("utf8","ignore").encode("gbk","ignore")
-            print u" title:",item[2]
+            print ('------ fetch  ------ '+item[2])
+            print (u"date:",item[0].decode("utf8","ignore").encode("gbk","ignore"))
+            print (u" url:",item[1].decode("utf8","ignore").encode("gbk","ignore"))
+            print ( u" title:",item[2])
             article_date = datetime.datetime.strptime(current_year+'/'+item[0],'%Y/%m/%d %H:%M');
             delta =today - article_date;
             title=item[2]
@@ -120,24 +120,25 @@ class Spider:
             urlMd5=self.getUrlMd5(link);
             if (delta.days < 1) and (self.checkDBUrl(urlMd5)<1):
                 content = self.getContent(link,contentRegular);
-                content = self.saveAllImgs(content);
+                # content = self.saveAllImgs(content);
                 self.saveContent(title,content,sourceName,article_date.strftime("%Y-%m-%d %H:%M:%S"),link,urlMd5);
                 self.saveUrlMd5(urlMd5);
             else:
-                print 'the info is had'
-            print '----- end fetch  ------' + item[2]
+                print ('the info is had')
+            print ('----- end fetch  ------' + item[2])
     def beginFetchPage(self):
-        for item in self.site:
-            print 'begin fetch ' + item[0]
+       for item in self.site:
+            print ("His name is %s" % ("Aviad"))
+            print ('begin fetch ' + item[0])
             sourceName = item[0]
             url = item[1]
             listRegular = item[2]
             contentRegular = item[3]
             self.savePageInfo(url,listRegular,contentRegular,sourceName);
-            print 'end fetch '+ item[0]
+            print ('end fetch '+ item[0])
             
 spider = Spider()
-content = spider.beginFetchPage();
-print 'down load end';
+spider.beginFetchPage();
+print ('down load end');
 
 
