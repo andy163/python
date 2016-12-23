@@ -7,12 +7,13 @@ import importlib
 
 #解决编码问题
 import sys
-importlib.reload(sys)
+reload(sys)
 
 #获取存储了职位信息的json对象，遍历获得公司名、职位、待遇等信息
 def get_json(url,page): 
   datas = {"first": "true", "pn": page,"kd": "HR" }
   s = requests.post(url, data=datas).json()    #reqquests获得json对象
+  print (s)
   info_list = []    
   jcontent = s["content"]["positionResult"]["result"]    
   for i in jcontent:        
