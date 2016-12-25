@@ -36,6 +36,8 @@ class Spider:
         content = self.getPage(contentUrl)
         pattern = re.compile(contentRegular,re.S)
         items = re.findall(pattern,content)
+        if not items:
+            return " "
         return items[0];
 #        print items[0].decode("utf8","ignore").encode("gbk","ignore")
     
