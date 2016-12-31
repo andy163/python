@@ -44,15 +44,21 @@ class ZhihuPeoplePipeline(object):
         """
         存储用户信息
         """
-        collection = self.db['people']
         zhihu_id = item['zhihu_id']
-        collection.update({'zhihu_id': zhihu_id},
-                          dict(item), upsert=True)
 
         image_url = item['image_url']
         if image_url and zhihu_id:
             image_path = os.path.join(self.image_dir, '{}.jpg'.format(zhihu_id))
-            download_pic.delay(image_url, image_path)
+            print (image_path)
+            print (image_url)
+            download_pic(image_url, image_path)
+
+        collection = self.db['people']
+
+        collection.update({'zhihu_id': zhihu_id},
+                          dict(item), upsert=True)
+
+
 
     def _process_relation(self, item):
         """
