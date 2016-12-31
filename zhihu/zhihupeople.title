@@ -1,0 +1,2147 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js ">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="001a910051baf7ca">
+<meta http-equiv="X-ZA-Experiment" content="default:None">
+
+<title>首页 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/">
+<meta id="znonce" name="znonce" content="41d4a8ca88ab4c9888e35dd9e9a65b0c">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.96020364.css">
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+
+<style>
+.zm-item-answer-author-info a.collapse {margin-top: 0}
+</style>
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/pang-shen-50" class="zu-top-nav-userinfo ">
+<span class="name">庞深</span>
+<img class="Avatar" src="https://pic1.zhimg.com/da8e974dc_s.jpg" srcset="https://pic1.zhimg.com/da8e974dc_xs.jpg 2x" alt="庞深" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/pang-shen-50">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/inbox">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容...">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li current" id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+
+
+<div class="HomeEntry" data-za-module="HomeEntry">
+<div class="HomeEntry-avatar">
+<img class="Avatar Avatar--xs" src="https://pic1.zhimg.com/da8e974dc_xs.jpg" srcset="https://pic1.zhimg.com/da8e974dc_l.jpg 2x" alt="庞深" />
+</div>
+<div class="HomeEntry-box">
+<span class="HomeEntry-boxArrow"></span>
+<ul class="HomeEntry-list">
+<li class="HomeEntry-item">
+<a href="#" class="HomeEntry-ask js-HomeEntry-ask">
+<i class="sprite-home-question-off"></i>
+提问
+</a>
+</li>
+<li class="HomeEntry-item">
+<a href="/question" target="_blank" class="HomeEntry-answer js-HomeEntry-answer">
+<i class="sprite-home-answer-off"></i>
+回答
+</a>
+</li>
+<li class="HomeEntry-item">
+<a href="//zhuanlan.zhihu.com/write" target="_blank" class="HomeEntry-post js-HomeEntry-post">
+<i class="sprite-home-post-off"></i>
+写文章
+</a>
+</li>
+</ul>
+<div class="HomeEntry-draft">
+<a href="/draft" target="_blank">
+草稿 
+</a>
+</div>
+</div>
+</div>
+
+<div class="zg-section" id="zh-home-list-title">
+<i class="zg-icon zg-icon-feedlist"></i>
+最新动态 <input type="hidden" id="is-topstory">
+<span class="zg-right zm-noti-cleaner-setting" style="list-style:none"><a href="/settings/filter" class="zg-link-gray-normal"><i class="zg-icon zg-icon-settings"></i>设置</a></span>
+</div>
+<div class="zu-main-feed-con" data-feedtype="topstory" id="zh-question-list"
+data-widget="navigable"
+data-navigable-options="{&quot;items&quot;:&quot;&gt; .zh-general-list .feed-content&quot;,&quot;offsetTop&quot;:-82}"
+>
+<a href="javascript:;" class="zu-main-feed-fresh-button" id="zh-main-feed-fresh-button" style="display:none"></a>
+<div id="js-home-feed-list" class="zh-general-list topstory clearfix" data-init="{&quot;params&quot;: {}, &quot;nodename&quot;: &quot;TopStory2FeedList&quot;}">
+
+
+<div class="feed-item folding feed-item-hook feed-item-0
+ 
+"
+feed-item-q data-type="q"
+id="feed-0"
+>
+<meta itemprop="ZReactor" data-id="9841726" data-meta="{&quot;source&quot;: [[&quot;member&quot;, &quot;b676ab8df3c4e4b415e7daceca7e23bb&quot;]], &quot;source_type&quot;: &quot;member_follow_question&quot;, &quot;answers&quot;: 36, &quot;comments&quot;: 0, &quot;follows&quot;: 2051}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="向渝"
+data-hovercard="p$t$xiang-yu-35"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/xiang-yu-35">
+<img src="https://pic1.zhimg.com/70600ed9d13f0182e27e042aceffd0c8_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a data-hovercard="p$t$xiang-yu-35" href="https://www.zhihu.com/people/xiang-yu-35" target="_blank" class="zg-link author-link" title="向渝"
+>向渝</a> 关注了问题
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1481362472000">3 周前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="question-id" content="9841726">
+<meta itemprop="question-url-token" content="44078624">
+<h2 class="feed-title"><a class="question_link" href="/question/44078624" target="_blank" data-id="9841726" data-za-element-name="Title">
+如何靠内容创业？
+</a></h2>
+
+
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+<meta itemprop="url" content="/question/44078624">
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-9841726"><i class="z-icon-follow"></i>关注问题</a>
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox" >
+<i class="z-icon-comment"></i>添加评论</a>
+<span class="zg-bull">&bull;</span> <a href="/question/44078624" class="meta-item" target="_blank">36 个回答</a>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="0">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-1
+ 
+"
+feed-item-a data-type="a"
+id="feed-1"
+>
+<meta itemprop="ZReactor" data-id="50883569" data-meta="{&quot;source_type&quot;: &quot;favorites_collect_answer&quot;, &quot;voteups&quot;: 25, &quot;comments&quot;: 7, &quot;source&quot;: []}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="尤子涵"
+data-hovercard="p$t$you-zi-han"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/you-zi-han">
+<img src="https://pic2.zhimg.com/b478fb539_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a href="https://www.zhihu.com/collection/19770547" target="_blank" data-za-element-name="Title">高质量实物；欲望清单</a> 收藏了回答
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1483104843000">20 小时前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="50883569">
+<meta itemprop="answer-url-token" content="138396260">
+<h2 class="feed-title"><a class="question_link" href="/question/23249438/answer/138396260" target="_blank" data-id="1481072" data-za-element-name="Title">
+为什么大多数酒店里的洗漱用品都是非知名品牌？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">为什么酒店,甚至五星酒店里的洗漱用品都是...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+为什么酒店,甚至五星酒店里的洗漱用品都是非知名品牌?为什么不用点高档的知名度高的?
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/23249438/answer/138396260">
+<!-- <meta itemprop="answer-id" content="50883569">
+<meta itemprop="answer-url-token" content="138396260"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>25</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">25</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$juliana-yang"
+target="_blank" href="/people/juliana-yang"
+>Juliana Yang</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/juliana-yang#hilightbadge" target="_blank">酒店话题优秀回答者</a></span>
+
+
+
+<span title="开房狂魔" class="bio">
+开房狂魔
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="25">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">25</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="1481072" data-action="/answer/content" data-author-name="Juliana Yang" data-entry-url="/question/23249438/answer/138396260">
+
+<textarea hidden class="content">&lt;b&gt;一句话回答你：因为没必要&lt;/b&gt;&lt;br&gt;&lt;br&gt;羊毛出在羊身上的道理我不说大家也都懂的吧？我就不说有些客人习惯性住酒店时候把所谓的大牌洗漱用品多要很多套带走挂在咸鱼上卖这种事了，我自己开房这么几年算不少了，自己也是干这行的，所以我很清楚这些玩意儿都什么价从哪儿来的。好不好用有以及多好用我暂不作评价，名气稍大的牌子内填液体的基料肯定是要好点，但是你要说真的你用个一两次就觉得自己皮肤嫩到像公主头发顺滑如丝啥的我是要打你的&lt;br&gt;&lt;br&gt;就像上面有知友提到的，护发护肤这些东西都是很私人化的事情，但是酒店是不可能做到照顾到所有的干性油性混合以及易过敏的客人的需求的，所以酒店大多数时候能用的只是面向普世大众的最普通的日化线产品，&lt;b&gt;实际功能性上的区别并不会特别大，&lt;/b&gt;&lt;b&gt;安全好用不刺激和气味好闻才是首要&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;因为我是身上超干脸上超油头发超脱的那种，所以我自己住酒店就对洗浴备品比较无所谓，大部分时候我能自己带洗漱包就自己带了。但是因为自己也筹备酒店，所以也不能说太任性的完全不管这事。相对于直接拿所谓的奢侈品牌子货给自己脸上贴金，我们在包装的易用程度上和功能性随季节时令的变化上会更愿意花功夫&lt;br&gt;&lt;br&gt;比如容器材质：是用玻璃材质的泵瓶还是用PP、PET还是硅胶？如果用玻璃瓶了瓶子质感确实上去了但是按压泵我得一个个做测试（被泵射一脸的事情我真是不想说了），另外给入住小宝宝准备的洗漱套装要尽量便于小朋友使用，瓶子材质用软硅胶的可以让他们好挤，瓶子上也要做出更明确的使用标识（使用颜色区别或者卡通形象）&lt;br&gt;&lt;br&gt;比如关于季节：春天时候易过敏人群会集中爆发，春季时候要准备好一批抗敏无酒精的库存给极个别有需求的客人使用，夏天用偏清爽的，秋冬改用偏温润的&lt;br&gt;&lt;br&gt;比如关于其他特殊需求：大油头来不及洗头但是要着急出门办事咋整，比如我这种大油头经常被紧急召唤？那可以考虑给这群客人提供免洗的去油喷雾对吧。皮肤严重过敏需要救场咋整？可以考虑给存点非处方的抑敏喷雾呗~比如像婴幼儿的备品要准备温和无泪配方的等等等&lt;br&gt;&lt;br&gt;如果非要说我对洗浴用品是否大牌货的看法，我只能说：&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;就我作为消费者身份来讲，你喜欢大牌你开心就好，我反正是无所谓的。作为酒店筹备者运营者角度来说，我一直坚定的认为看到各种大牌就使劲搬使劲用是最为偷懒的所谓的「用心」。&lt;/b&gt;&lt;br&gt;&lt;br&gt;酒店洗浴用品作为面向所有客人的一次性消费品提供要他非常有针对性的功效是不可能的，如果用那么一两次就能让你一下子感觉好用到无法自拔，那真是恕我愚钝，我用了这么多还真没感受到。&lt;br&gt;我们一整个筹备团队从筹备一直到现在，我们酒店里不止是这些洗浴用品，其余的每一件每位客人要用到的东西都是我们自己实打实测试和体验是我们一样样挑的。我们不排斥品牌，我们也用，但是我们不想拿任何所谓的大牌和奢侈品说事拿别人家牌子给自己贴金。我朋友圈子里干化学的和做日化行业的人简直不要太多，所以大家就相视一笑吧。&lt;br&gt;&lt;br&gt;&lt;b&gt;不是我们小气，我们只是不愿意拿着钱去给各位买所谓的阶级差距优越感，我们希望每分钱花在刀刃上，真正花在提升客人实际入住体验上。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;任何所谓轻奢或者超奢我们不在意更不会去标榜，实用主义和每位客人的舒适才是我们的信条。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Ps: 我不知道我这答案算不算硬广了，喝着酒跟老大还有光头一起加着班，我忙里偷闲就写个答案吧。各位爷先别问我开在哪儿和啥时候开业，我还没准备好正式打广告啊哈哈哈哈</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>一句话回答你：因为没必要</b> 羊毛出在羊身上的道理我不说大家也都懂的吧？我就不说有些客人习惯性住酒店时候把所谓的大牌洗漱用品多要很多套带走挂在咸鱼上卖这种事了，我自己开房这么几年算不少了，自己也是干这行的，所以我很清楚这些玩意儿都什么价从哪儿…
+
+<a href="/question/23249438/answer/138396260" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 18:14" target="_blank" href="/question/23249438/answer/138396260">编辑于 昨天 23:34</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-1481072"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>7 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="1">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-2
+ 
+"
+feed-item-a data-type="a"
+id="feed-2"
+>
+<meta itemprop="ZReactor" data-id="50874514" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 11, &quot;comments&quot;: 2, &quot;source&quot;: [[&quot;topic&quot;, 1774]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="房产" data-hovercard="t$t$19555559"
+class="zm-item-link-avatar"
+href="/topic/19555559"
+target="_blank">
+<img src="https://pic3.zhimg.com/7515731c6_m.jpg" alt="房产" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19555559" data-hovercard="t$b$19555559" data-token="19555559" data-topicid="1774" target="_blank" data-za-element-name="Title">房产</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="50874514">
+<meta itemprop="answer-url-token" content="138373602">
+<h2 class="feed-title"><a class="question_link" href="/question/54190919/answer/138373602" target="_blank" data-id="13896205" data-za-element-name="Title">
+夫妻婚后共有房产，证上只有一方的名字，能自己卖掉吗？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">房子是婚后才买的，还贷是两人一起。 我听...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+房子是婚后才买的，还贷是两人一起。<br>我听说的是可以卖但是无法过户，是各地规则不一样吗？北京什么样？
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/54190919/answer/138373602">
+<!-- <meta itemprop="answer-id" content="50874514">
+<meta itemprop="answer-url-token" content="138373602"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>11</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">11</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$guang-dong-tian-sui-lv-shi-shi-wu-suo"
+target="_blank" href="/org/guang-dong-tian-sui-lv-shi-shi-wu-suo"
+>广东天穗律师事务所</a><span class="OrgIcon sprite-global-icon-org-14" data-tooltip="s$b$已认证的机构"></span></span><span title="珍惜每一次信任，忠于每一次委托。" class="bio">
+珍惜每一次信任，忠于每一次委托。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="11">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">11</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="13896205" data-action="/answer/content" data-author-name="广东天穗律师事务所" data-entry-url="/question/54190919/answer/138373602">
+
+<textarea hidden class="content">不能。题主听说的没错，你可以卖，但是不能过户。&lt;br&gt;&lt;br&gt;本所大人给您解释一下（先看理论，后面再说个案例）：&lt;br&gt;买卖这事情最简单不过了，一手交钱一手交房。您去跟中介说你要卖房，找到买家就签合同交房款，负责任的中介会问一下是否夫妻双方都同意（毕竟人家也不想白干啊），如果您说另一方有特殊原因不能到场，大多数的中介顶多让你打个电话证明，也不会说不让您卖。&lt;br&gt;&lt;br&gt;但购房者付了钱，您得给人家过户呀！这下可好了，到了房管局，人家电脑上一查是已婚状态，不好意思，喊您老公过来一起过来签合同、拍个照吧。&lt;br&gt;&lt;br&gt;之后就是两个情况：&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;b&gt;1.配偶同意卖房，您得分一半给他。&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;根据最高人民法院关于适用《中华人民共和国婚姻法》若干问题的解释（三）第十一条之规定：“一方未经另一方同意出售夫妻共同共有的房屋，第三人善意购买、支付合理对价并办理产权登记手续，另一方主张追回该房屋的，人民法院不予支持。夫妻一方擅自处分共同共有的房屋造成另一方损失，离婚时另一方请求赔偿损失的，人民法院应予支持。”&lt;br&gt;&lt;/blockquote&gt;&lt;br&gt;所以，如果买房的第三方是善意购买，支付了合理的房款并且办了产权登记手续的话，夫妻另一方是无权追回这个房屋的，但可以要求获得相应的赔偿。&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;2.配偶不同意卖方，您得赔违约金。&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;房子自然是不能过户了。购房者与您签订了合同，并付了款，您说不能过户，那么您就属违约了。&lt;br&gt;&lt;br&gt;根据《合同法》规定，只有当一方当事人有重大违约行为时，另一方当事人有权解除合同，并要求其返还所交的预售购房款和利息，并支付违约金，&lt;i&gt;&lt;b&gt;一般双倍返还定金或者30%以内的合同约定，或者实际损失 。&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;b&gt;----------------------------------------------------我是一条案例分割线-------------------------------------------------&lt;/b&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;在本所大人遇到过的房屋买卖合同纠纷案件中，很多是夫妻一方在配偶不在场、不知情的情况下，将作为夫妻共同财产的房屋擅自卖给第三方。在与第三方购房者的交易过程中产生诉讼。起因多样，有的是购房者要求出卖方与其配偶按合同履行房屋交易手续，协助办理过户等手续；有的则是配偶起诉买卖的双方，要求判定购房合同无效。&lt;br&gt;&lt;br&gt;有这么一个案例（案例人称均为化名）：&lt;br&gt;原告李浩与被告王丽于2001年登记结婚，双方确立为夫妻关系。婚后共同出资购买了广州一套房屋，房屋买卖合同签订人与房屋产权人均为王丽。2015年，原告李浩发现王丽擅自把此房屋卖给了次被告张某，并且签订了房屋买卖合同。原告李浩认为，涉案房屋属于夫妻共同财产，王丽未经原告同意，在原告不知情的情况下擅自变卖夫妻共同财产的行为损害了原告的合法权益，所以被告王丽与张某签订的房屋买卖合同应为无效。&lt;br&gt;&lt;br&gt;简单的说就是老婆偷偷把作为夫妻共同财产的房子卖给了张某，老公发现了说自己并不知情，这张某与自己老婆签的合同要作废。&lt;br&gt;&lt;br&gt;这时候剧情反转，老婆王丽说：“ 嗯，我老公说得对，当时他在医院治病，他并不知情，所以我与张某签订的合同应为无效。”&lt;br&gt;&lt;br&gt;作为被告的张某多憋屈啊，合同是在双方自愿的情况下经一致协商在正规的房地产中介公司签订的，而且当时王丽凡物强调卖方这事他们夫妻俩都是知情的，王丽还说因为老公生病不方便过来签合同，当场打了电话，电话那头一男的称是王丽老公，同意出售房屋；另外王丽还签署了声明证明对房屋有完整的处分权，张某认为其作为善意第三人购买房屋，李浩与王丽应履行房屋买卖合同。&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;b&gt;人民法院审理后认为：&lt;/b&gt;&lt;/i&gt;&lt;br&gt;当事人一方以出卖人在缔约时对标的物没有所有权或者处分权为由主张合同无效的，人民法院不予支持。原告以被告王丽在未经原告同意且原告并不知情的情况下擅自处分夫妻共同财产为由，要求判定房屋买卖合同无效，法律依据不足；原告主张次被告张某恶意串通被提供充分证据，根据：&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;《中华人民共和国合同法》&lt;br&gt;第五十二条 有下列情形之一的，合同无效。&lt;br&gt;　　（一）一方以欺诈、胁迫的手段订立合同，损害国家利益；&lt;br&gt;　　（二）恶意串通，损害国家、集体或者第三人利益；&lt;br&gt;　　（三）以合法形式掩盖非法目的；&lt;br&gt;　　（四）损害社会公共利益；&lt;br&gt;　　（五）违反法律、行政法规的强制性规定。&lt;/blockquote&gt;&lt;br&gt;&lt;blockquote&gt;《最高人民法院关于审理买卖合同纠纷案件适用法律问题的解释》&lt;br&gt;第三条&lt;br&gt;               第1款：当事人一方以出卖人在缔约时对标的物没有所有权或者处分权为由主张合同无效 的，人民法院不予支持。&lt;br&gt;               第2款：出卖人因未取得所有权或者处分权致使标的物所有权不能转移，买受人要求出卖人承担违约责任或者要求解除合同并主张损害赔偿的，人民法院应予支持。&lt;/blockquote&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;最后判决驳回原告的诉讼请求。&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;所以，未经配偶同意还是不要擅自变卖夫妻共同财产了，且不说能不能过房管局这关，即使能卖，只要被配偶发现了还是得对对方做出补偿。过不了户但签了合同还要赔付违约金，赔了夫人又折兵。&lt;br&gt;&lt;br&gt;另外，如果做为购房者，也要注意查看卖方是否已婚状态，询问房屋是婚前购买还是婚后购买，有必要时要求查看其结婚证，对照原房屋的购房日期，如晚于结婚日期，一般为夫妻共同财产，最好还是得到夫妻双方的同意后才签订合同。否则即使有违约金赔偿，但买房过程劳心劳力最后房子却买不成，还很有可能因为诉讼时间的延迟造成购房款资金站岗。&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;以上，&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;i&gt;我是天穗所大人，有事找我，没事退庭。&lt;/i&gt;&lt;/b&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+不能。题主听说的没错，你可以卖，但是不能过户。 本所大人给您解释一下（先看理论，后面再说个案例）： 买卖这事情最简单不过了，一手交钱一手交房。您去跟中介说你要卖房，找到买家就签合同交房款，负责任的中介会问一下是否夫妻双方都同意（毕竟人家也不…
+
+<a href="/question/54190919/answer/138373602" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/54190919/answer/138373602">发布于 昨天 15:34</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-13896205"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>2 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="2">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-3
+ 
+"
+feed-item-a data-type="a"
+id="feed-3"
+>
+<meta itemprop="ZReactor" data-id="50356279" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 81, &quot;comments&quot;: 13, &quot;source&quot;: [[&quot;topic&quot;, 6268]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="约会" data-hovercard="t$t$19568996"
+class="zm-item-link-avatar"
+href="/topic/19568996"
+target="_blank">
+<img src="https://pic3.zhimg.com/f35f916a6_m.jpg" alt="约会" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19568996" data-hovercard="t$b$19568996" data-token="19568996" data-topicid="6268" target="_blank" data-za-element-name="Title">约会</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="50356279">
+<meta itemprop="answer-url-token" content="137080523">
+<h2 class="feed-title"><a class="question_link" href="/question/25695608/answer/137080523" target="_blank" data-id="2461000" data-za-element-name="Title">
+约会除了吃饭看电影还有其他项目吗？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">相亲认识的，在谈，可是每次见面除了吃饭看...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+相亲认识的，在谈，可是每次见面除了吃饭看电影还能安排些什么？
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/25695608/answer/137080523">
+<!-- <meta itemprop="answer-id" content="50356279">
+<meta itemprop="answer-url-token" content="137080523"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>81</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">81</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$gao-an-qi-97"
+target="_blank" href="/people/gao-an-qi-97"
+>装14</a></span><span title="卖身不卖艺的公众号：zhuang14-2016" class="bio">
+卖身不卖艺的公众号：zhuang14-2016
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="81">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">81</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2461000" data-action="/answer/content" data-author-name="装14" data-entry-url="/question/25695608/answer/137080523">
+
+<textarea hidden class="content">&lt;p&gt;&lt;strong&gt;如&lt;/strong&gt;&lt;strong&gt;今的姑娘们可谓脑瓜子越来越聪明了！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;这么说吧，只要直男们一提出约会的流程是「吃饭电影KTV」，姑娘们此时的眼里仿佛就看出了他手中挥动的「如家房卡」。&lt;/p&gt;&lt;br&gt;&lt;p&gt;所以这时候，直男们为了避免出门约会活该一个人睡：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「约会的场地显得极其重要」&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;浪漫有趣是前提，但其中一定得暗藏「深意」&lt;/strong&gt;（套路）&lt;strong&gt;。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-1eadc4f1265cf10c814931ef10b51d9b_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;500&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic4.zhimg.com/v2-1eadc4f1265cf10c814931ef10b51d9b_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;首先，在约会之前你必须得搞清楚一点，那就是你约会的核心：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「此次约会如何才算成功？」&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;一般情况下，男女初次约会成功的结果无非四点：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;1.两个相对陌生的人从尴尬僵硬走向轻松自然。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;2.约会结束后感觉还有很多话题没有聊完。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;3.当约下次见面时对方会毫不犹豫自然的说「要」！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;4.在告别时已经约好了下次见面。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;等你搞清楚了这些后，接下来就是场地的选择了，记住一点：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;最好提前勘察或保证自己足够了解场地，否则出丑的你特别像尿床后怕被妈妈打屁股，而表现出手足无措的「小弱鸡」。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-ce350b25f840a4489f31a96124967fac_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;500&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic1.zhimg.com/v2-ce350b25f840a4489f31a96124967fac_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;废话不多说，我精心从上百个约会场地中挑选的「独门秘籍」。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;今日双手奉上！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;情侣DIY厨房&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;关键词：&lt;strong&gt;制造甜蜜&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;心动值：♡♡♡♡&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;都说想要搞定一个男人很简单：&lt;strong&gt;白天喂饱他，晚上「喂饱他」。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;听到这些话姑娘们表示不服了，于是又有了一个新的「镜像答案」：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;想要搞定一个女人也很简单，你只需要保证她的一「日」三餐。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;由此可以看出如今这个年代，不会做饭都没脸喊脱单。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-695f0e6fa5b6624b304db76a01d6f767_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;846&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic4.zhimg.com/v2-695f0e6fa5b6624b304db76a01d6f767_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;所以，何不将约会的场地约在情侣DIY厨房？&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;首先，选在DIY厨房本身的气氛就比站在大马路或商场里强！&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;大多数DIY厨房都会设计的比较温馨，有家里的感觉。你想想，当你穿上围裙的一霎那，笨拙的站在食物前面倒腾研究的样子：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;此时是否会让姑娘有一种婚后生活的感觉？&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;当然，如果你是一位烹饪高手，那更加事半功倍。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-7683bf3666642d1107b1a79a99324631_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;765&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic2.zhimg.com/v2-7683bf3666642d1107b1a79a99324631_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;其次，DIY厨房由于空间有限。所以不同于你们两在大街上那么宽阔的地方约会，在这里你们的距离将无限拉近。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;这一点就完全符合了约会的一大目的：&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「两个相对陌生的人从尴尬僵硬走向轻松自然」&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-96443f69f0d0ec22e86b28ec53a97a37_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;761&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic4.zhimg.com/v2-96443f69f0d0ec22e86b28ec53a97a37_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;来这里的第二个好处则是，&lt;/strong&gt;&lt;strong&gt;你两将第一次合力共同完成一件事。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;尽管你们可能厨艺都不佳，但是当你们选择做一道菜时，不管是从切菜到烹饪，都是你们两共同努力的成果。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;只有随着两人不断合力&lt;/strong&gt;&lt;strong&gt;完成每件事，才能离合力完成「那件事」更进一步！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-201772492882e1541582f84a40d5467d_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;666&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic2.zhimg.com/v2-201772492882e1541582f84a40d5467d_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;当然，如果你运气好，碰上一位精通厨艺的姑娘，那就带她做其他的食物。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;比如姑娘们都喜欢的「饼干」或「蛋糕」之类。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;这种「卡哇伊」的小甜点是姑娘最不能拒绝的食物，而且具体操作也相对简单的多。整体过程会比做中西餐来的有趣。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-365245a7c557e91c9d0be0e61613560d_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;728&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic2.zhimg.com/v2-365245a7c557e91c9d0be0e61613560d_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;但如果你遇上的这位姑娘不论是烹饪或甜点样样精通，&lt;strong&gt;那麻烦此时手足无措的你把她的联系方式给我：&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「我来」！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;动物园&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;关键词：&lt;strong&gt;增加好感&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;心动值：♡♡♡♡&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;br&gt;看到这个场地一定有很多人忍不住吐槽：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;你当我约的是实验小学的娃娃啊！还去动物园约啥会！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;对此，我不禁喝完面前的二锅头，对你的提问表示「肯定」：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;你懂个屁！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;知道姑娘对男人人品的三点评判标准是什么吗？&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「老人，儿童，动物」&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;光是动物园里，就有其中两样在。这时候你表现的绝佳机会来了！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-543ed90862ec3e0fb0920dc441e827ea_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;500&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic3.zhimg.com/v2-543ed90862ec3e0fb0920dc441e827ea_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;除了在动物园内爱护动物，喜爱小孩儿能增加姑娘对你的好感度。在游玩的过程中也要记得时刻把握住机会。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;要知道动物园可是天然的「气氛调节器」。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;这些看似与你扯不上边的动物，其实就是你今天最重要的「僚机」。&lt;strong&gt;它们的存在直接能让你和姑娘快速的「进入状态」。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-a776ef61d1b34aa3ad5e4be165162e01_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;555&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic2.zhimg.com/v2-a776ef61d1b34aa3ad5e4be165162e01_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;打个很简单的比方：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;猴子、河马、草泥马等动物能逗你们笑，鸟类鱼类动物能让你们安静的欣赏，蟒蛇鳄鱼等冷血动物则能让姑娘不自觉的躲到你身后。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;等看完所有动物下来，你们会发现此时自己所有的情绪几乎都在对方面前「展露无遗」，剩下的只有自然和好感度「破表」！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-ce2bb6e18d018f6d07ba23fd1b381620_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;564&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic1.zhimg.com/v2-ce2bb6e18d018f6d07ba23fd1b381620_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;有了这么一次有趣的约会，下次再约姑娘出来还会难吗？&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;滑雪场&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;关键词：&lt;strong&gt;极速升温&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;心动值：♡♡♡♡♡&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;有一句老话是这么说的，你在约一个姑娘时：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;如果她涉世未深，就带她看世间繁华；如果她历经沧桑，就带她坐旋转木马。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;但如果在你不清楚她背景的时候，那我建议你：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;带她去滑雪场吧！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-3c00b498afbb35e2ad736c0321b8458e_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;750&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic3.zhimg.com/v2-3c00b498afbb35e2ad736c0321b8458e_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;首先，滑雪这项运动充满刺激和挑战感。适合「涉世未深」的姑娘。&lt;/p&gt;&lt;br&gt;&lt;p&gt;其次，不管是天然还是人工的滑雪场，都能欣赏「雪景」。同样适合「历经沧桑」的姑娘。&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;当然，这些都不是重点，重点是这里可以让你们两的感情「极速升温」！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-c426b78e0248cdc236f8d9941664f31b_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;751&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic4.zhimg.com/v2-c426b78e0248cdc236f8d9941664f31b_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;滑雪这个项目非比其他运动项目，&lt;/strong&gt;&lt;strong&gt;它讲究平衡感以及技巧。&lt;/strong&gt;&lt;strong&gt;也就是说，它不再呈现「男强女弱」的局面。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;在这样的情况下，无形之中两人就产生了「竞争关系」。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;比如你和姑娘两人都是新手，在滑雪的过程中一定会从多次摔倒转到逐渐平稳。这时候为了不在对方面前出丑，那自己心里一定会产生：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;不行，我得比TA先学会。不然太丢脸了。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;也就是在这样潜意识的「竞争」下，两人产生了不一样的化学反应，气氛迅速升温。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/v2-235c9d954b358e6233bb9962cf7058e8_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;564&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic1.zhimg.com/v2-235c9d954b358e6233bb9962cf7058e8_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;但如果你有心提前去学了一些滑雪的基本技能，那么恭喜你：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;你已经成功一大半了。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;此时的你自然而然的成为了姑娘的「教练」，所以这时基本的「肢体接触」是少不了的。特别是当姑娘摔倒时，你迅速且温柔的将她扶起来：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;恭喜你朋友，胜利就在你的前方。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;没有姑娘会对一个既温柔绅士又懂得制造有趣约会的男人不感兴趣的！&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;「除非，你丑到让她无法下饭...」&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-ba4bb23808a4de9383aa298bda59aaab_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;564&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic4.zhimg.com/v2-ba4bb23808a4de9383aa298bda59aaab_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;当然啦，如果姑娘本来就会滑雪，那么你就算是会也得装不会！别问我为什么！&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;旗鼓相当还能「互相恩爱」的，恐怕只有美国队长和钢铁侠了...&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/v2-b4a8ff682a4f1955bd2c6ef7ad60701a_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;423&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic3.zhimg.com/v2-b4a8ff682a4f1955bd2c6ef7ad60701a_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;最后，当你们结束了白天的约会后，在双方都「意犹未尽」的情况下。记住一点：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;千万不要问姑娘「接下来你想干嘛」？&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;你以为这是所谓的「绅士」，实际上只不过是将这个「计划的摊子」甩给了姑娘罢了。之前约会好不容易积攒的好感，有可能瞬间崩塌。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/v2-3991cde866ac10158c5a82b5c92f1c17_b.jpg&quot; data-rawwidth=&quot;564&quot; data-rawheight=&quot;534&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;564&quot; data-original=&quot;https://pic4.zhimg.com/v2-3991cde866ac10158c5a82b5c92f1c17_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;这时候你可以做出两个选择：&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;直接定一个计划带姑娘去，或者拿两个计划给姑娘二选一。&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;时刻要记住，对于姑娘来说&lt;/strong&gt;——&lt;strong&gt;约会好玩，但「计划」不好玩...&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/v2-5eed317e4e0aea4c598c2c5a39e8f435_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;485&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic2.zhimg.com/v2-5eed317e4e0aea4c598c2c5a39e8f435_r.jpg&quot;&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic4.zhimg.com/v2-1eadc4f1265cf10c814931ef10b51d9b_200x112.jpg" data-rawwidth="500" data-rawheight="500" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-1eadc4f1265cf10c814931ef10b51d9b_r.jpg">
+<strong>如</strong><strong>今的姑娘们可谓脑瓜子越来越聪明了！</strong> 这么说吧，只要直男们一提出约会的流程是「吃饭电影KTV」，姑娘们此时的眼里仿佛就看出了他手中挥动的「如家房卡」。 所以这时候，直男们为了避免出门约会活该一个人睡： <strong>「约会的场地显得极其重要」</strong> <strong>浪漫有趣是前提…</strong>
+
+<a href="/question/25695608/answer/137080523" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-12-22" target="_blank" href="/question/25695608/answer/137080523">编辑于 2016-12-22</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2461000"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>13 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="3">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-4
+ 
+"
+feed-item-a data-type="a"
+id="feed-4"
+>
+<meta itemprop="ZReactor" data-id="50846552" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 7, &quot;comments&quot;: 4, &quot;source&quot;: [[&quot;topic&quot;, 1774]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="房产" data-hovercard="t$t$19555559"
+class="zm-item-link-avatar"
+href="/topic/19555559"
+target="_blank">
+<img src="https://pic3.zhimg.com/7515731c6_m.jpg" alt="房产" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19555559" data-hovercard="t$b$19555559" data-token="19555559" data-topicid="1774" target="_blank" data-za-element-name="Title">房产</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="50846552">
+<meta itemprop="answer-url-token" content="138303875">
+<h2 class="feed-title"><a class="question_link" href="/question/53282883/answer/138303875" target="_blank" data-id="13531809" data-za-element-name="Title">
+中国政府为什么不愿意收房产税？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<div class="question-description-plain zm-editable-content">
+
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/53282883/answer/138303875">
+<!-- <meta itemprop="answer-id" content="50846552">
+<meta itemprop="answer-url-token" content="138303875"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>7</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">7</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$xiao-bo-shawn"
+target="_blank" href="/people/xiao-bo-shawn"
+>小波Shawn</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="7">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">7</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="13531809" data-action="/answer/content" data-author-name="小波Shawn" data-entry-url="/question/53282883/answer/138303875">
+
+<textarea hidden class="content">这个问题很有意思。&lt;br&gt;&lt;b&gt;结论：房产税政府非常想征收，而且地方政府比中央政府更急迫的想开征房产税。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;房产税开征有两个重大意义&lt;/b&gt;：&lt;br&gt;1.&lt;b&gt;标志着我国由传统的所得税+流转税作为主体的税收组成转变为所得税+流转税+财产税作为主体的税收组成，是我国税收征管的重大进步。&lt;/b&gt;&lt;br&gt;2.&lt;b&gt;标志着我国地方的主体税种由营业税为代表的流转税向房产税为代表的财产税的重大转变&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;房产税开征目前有以下几个问题&lt;/b&gt;：&lt;br&gt;1.&lt;b&gt;纳税人不明&lt;/b&gt;。&lt;br&gt;房产税的课税对象是房产，纳税人就是房屋的所有者，但是目前我国房屋的权属过于多样，产权关系复杂，目前已知难以确定纳税人的房产就包括军属房产（军队分配只有居住没有使用权的房子）、小产权房产、未归属个人的国有企业分配房产。其次目前不动产信息系统刚刚建立，而且在推行的时候遇到了很大的阻力，如何确定不动产的实际持有人和产权人仍旧是当前的主要工作。&lt;br&gt;2.&lt;b&gt;土地和房产的关系&lt;/b&gt;。&lt;br&gt;我国实行土地使用权限期使用和房产所有权永久有效的制度。意味着土地使用权到期之后应该续交土地出让金，如果土地到期后未能成功征收新的土地出让金，那作为事实上土地附着物的房产应该如何判定其法律地位？如果因为没有缴纳土地出让金将其判定为非法建筑明显有违房屋财产权永久有效的原则，且非法建筑还交个毛税？如果仍旧承认其作为不动产的合法属性，在土地证和房屋所有权证分离的情况下，剥夺其出售、出租等财产所有人处置财产的权利，那作为缴纳了财产税的所有者，却不能处置其对应房产（房产税对的是房产证），是否合理合法？如果土地证、房产证两证合一，那不交土地出让金，房地证是否仍然有效？这些法律和逻辑的问题不解决（主要是土地到期和房产无限期的问题），房产税难以开征。&lt;br&gt;3.&lt;b&gt;税率和税基难以确定&lt;/b&gt;。&lt;br&gt;房产税作为未来地税的主要税种，税率是由国家确定还是地方确定？如果全国统一税率，那课税的金额又怎么确定，政府指导价不过是地方政府自己制定的价格，作为地方政府，有冲动提升纳税的税基金额，以提升税收，怎么平衡和调节纳税人和地方政府的关系？如果一个人在不同城市分别拥有多套房产，显而易见，不同城市房价差异很大，但房产税考虑维护社会稳定应该会有一个免征面积，如何确定其因依法免征面积产生的免征金额？这个人应该向哪些城市纳税？哪些城市免征？看起来都是技术性细节，其实这都是不同地方之间利益之争，需要考虑个人与政府、发达与欠发达地区的关系。&lt;br&gt;4.&lt;b&gt;征收难度大&lt;/b&gt;。&lt;br&gt;我国现阶段社会发展状况和落后的税收征管体制难以适应房产税精细征收的要求。&lt;br&gt;目前我国课税对象以企业为主，通过税管员联系纳税企业，企业的位置相对固定，其也各种信息便于检索。如果征收房产税，这是我国税务部门首次直接向个人征税，怎么征?现在房屋的所有者和房产不在同一地点的情况比比皆是，甚至有的人在国外，房子在国内，这种情况下税务机关怎么联系个人征税？就算一个小区的居民都在，税务机关又怎么征收？难道给每个房子安装一个税控机吗？又或者挨个敲门征收？如果有人抗缴是不是要采取强制措施？还是没收房产拍卖？美国可以发一封e-mail就通知纳税人缴税，中国行吗？&lt;br&gt;总而言之，房产税的征收行为产生的行政成本将远大于目前直接向企业征收税的行政成本，甚至可能在部分房市低迷的地区产生行政成本大于税收收益的情况。&lt;br&gt;4.&lt;b&gt;对房地产行业影响大&lt;/b&gt;，坐实一房三吃，即通过房产征收土地出让金、转让交易税、房产税不断提升房产的持有成本的同时，也推高了房产的价格，对于房地产行业的影响一时难以判断。&lt;br&gt;5.&lt;b&gt;对经济社会的影响大&lt;/b&gt;。房地产是天字第一号行业，有关房地产的一举一动都对于中国经济有着极大的影响，目前如果贸然开征房产税对于房地产市场具体会产生什么影响很难判断，故而开征很慎重。&lt;br&gt;&lt;br&gt;&lt;b&gt;房产税的优点&lt;/b&gt;：&lt;br&gt;1.&lt;b&gt;调节贫富差距&lt;/b&gt;。&lt;br&gt;鉴于我国居民目前持有的财产主要还是以房产为主，意味着有房子越多的人纳税越多，即便不能促使这部分人出售房产，也可以提高其持有成本，实现“劫富”，但是这要在市场化程度比较高的条件下才能实现，动辄“限购””限户“的情况下征收房产税，实际是推高热点地区房价，对于实现控制资产泡沫的目标没有好处。&lt;br&gt;2.&lt;b&gt;促进居民资金进入经济循环，&lt;/b&gt;&lt;b&gt;避免资金沉淀&lt;/b&gt;。&lt;br&gt;目前居民热衷买房，大量的资金通过交易变成了房地产，卖房的人又把卖房子的钱去买新的房子，这样金融体制实际成为围绕房地产转的制度，资金只不过从一栋房子流入另一栋房子，没有产生实际的社会经济效益，只是在鼓吹泡沫。通过房产税”惩罚”投机房产的人，促使房产市场中的资金回流实体经济。&lt;br&gt;但是目前我国这种户籍+房产的困局，很难实现这个目标。&lt;br&gt;3.&lt;b&gt;税源持久稳定&lt;/b&gt;&lt;br&gt;相对于企业的开立盈亏随着经济波动而变化，房产更像是一座屹立不倒的丰碑，只要房子建起来、卖出去，就可以依法征税，明显比向企业征税更加稳定安全。&lt;br&gt;&lt;br&gt;&lt;b&gt;房产税的缺点&lt;/b&gt;：&lt;br&gt;1.&lt;b&gt;进一步拉大地方间的财政收入差距&lt;/b&gt;&lt;br&gt;目前我国房地产市场已经产生巨大的分化，部分一线城市房价要登陆月球，达到了人类历史上也极其罕见的水平，但是部分三线地级市和四线县城确有大量的住房空置滞售，这些地方一旦开征房产税，其实际的征收效果能有多好存疑。&lt;br&gt;实际房产税能撑的起地方主体税种这个名头的主要是一线城市、省会城市，东部地区经济发达城市和部分人口众多的二线城市。&lt;br&gt;其次，房产税实际是一种新时代的人头税，人口多的地方，自然房子就卖的多，房产税征收的金额也就大，对于一些人口本来就稀少的省份有不利影响。&lt;br&gt;2 .&lt;b&gt;对部分地方政府产生不良导向&lt;/b&gt;&lt;br&gt;在以营业税作为地方主要税种，增值税央地共享的时代，由于企业是实际的纳税人，所以地方政府会积极的招商引资，吸引有价值的企业来本地投资，从而产生税收。但是房产税的时代，地方政府可能会从房子身上想办法，按照一些地方政府的作风，可能会动用各种手段“迫使”当地居民购房（比如拆村进城），使得地方政府的工作重心短期内由搞企业变成卖房子。&lt;br&gt;3.&lt;b&gt;违法惩罚执行难&lt;/b&gt;。&lt;br&gt;目前我国这种维稳比天大的国情，一旦直接向百姓征收房产税，必然会加重居民的税负痛苦，如果部分居民抗缴、拒缴房产税，政府能做的实在有限。如果强行征收房产，势必会引起社会不安，甚至不排除出现2006-2010年期间一系列因为征地而引发的自焚、凶杀等具有社会不良影响的事件。如果采取断水电气的方式，这只对本人居住的房屋有用，类似手段对那些空置的房屋很难奏效。如果弃之不征明显会对社会造成一种不交税占便宜的效果。要达到房产税征收的效果势必要实现多部门、多方向联动才能奏效。&lt;br&gt;&lt;br&gt;&lt;b&gt;房产税开征的紧迫性&lt;/b&gt;：&lt;br&gt;1.&lt;b&gt;地方政府缺乏主体税种&lt;/b&gt;。&lt;br&gt;目前地方政府面对地方债偿还、民生开支升高、经济结构调整三座大山需要资金，缺乏持久稳定的税金来源不是一个可以长久维持的局面。&lt;br&gt;2.&lt;b&gt;降低实体经济税负痛苦&lt;/b&gt;&lt;br&gt;目前制造业仍然承担着我国就业和纳税的主要任务，在当前的困难局面下，减轻制造业负担，保护我国制造业仍旧是正确的，毕竟我国还有大量的劳动力需要制造业吸纳。开征房产税可以开辟新的税源，对下一步给制造业实际减税提供有力支撑。&lt;br&gt;3.&lt;b&gt;实现我国税收征管体制的现代化&lt;/b&gt;&lt;br&gt;完成治理体系和治理能力的现代化，其中也包括实现税收征管体制的现代化。目前我国税管员模式已经远远落后于时代，急需实现精细化征管。税制设计中对财产税的空白也不合乎现代国家所得、流转、财产三大主体税种按比例搭配的税制设计。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+这个问题很有意思。 <b>结论：房产税政府非常想征收，而且地方政府比中央政府更急迫的想开征房产税。</b> <b>房产税开征有两个重大意义</b>： 1.<b>标志着我国由传统的所得税+流转税作为主体的税收组成转变为所得税+流转税+财产税作为主体的税收组成，是我国税收征管的重大进…</b>
+
+<a href="/question/53282883/answer/138303875" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 昨天 01:18" target="_blank" href="/question/53282883/answer/138303875">编辑于 昨天 01:27</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-13531809"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>4 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/v2-2fb633b79a9a93c2b45c9485b4526b92_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=138303875" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="4">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-5
+ 
+"
+feed-item-p data-type="p"
+id="feed-5"
+>
+<meta itemprop="ZReactor" data-id="315708" data-meta="{&quot;source_type&quot;: &quot;promotion_article&quot;, &quot;voteups&quot;: 22118, &quot;comments&quot;: 979, &quot;source&quot;: []}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="token胡依林"
+data-hovercard="p$t$tokenhu"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/tokenhu">
+<img src="https://pic1.zhimg.com/be5aa0fdd3ba18710aa3a1cf9054b090_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+热门文章
+
+</div>
+<div class="feed-content">
+<meta itemprop="post-id" content="315708">
+<meta itemprop="post-url-token" content="20332863">
+<h2 class="feed-title"><a target='_blank' class="post-link" href="https://zhuanlan.zhihu.com/p/20332863" data-za-element-name="Title">如何把家装修成舒服的地方。</a></h2>
+
+<div class="entry-body post-body js-collapse-body">
+
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="#" data-bind-votecount>22K</a>
+</div>
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">22K</span>
+<span class="label sr-only">赞</span>
+</button>
+</div>
+
+
+<div class="author-info summary-wrapper">
+<span class="author-link-line">
+<a href="/people/tokenhu" data-hovercard="p$t$tokenhu" class="name author-link"
+>token胡依林</a><span class="icon icon-badge-identity icon-badge" data-tooltip="s$b$已认证的个人"></span></span><span class="badge-summary">小牛电动 创始人</span>
+
+
+<span title="摩托车修理工/职业单身过气网红。" class="bio">
+摩托车修理工/职业单身过气网红。
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="22118">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">22118</span>&nbsp;人赞</a></span>
+
+
+</div>
+<div class="post-content" data-author-name="token胡依林" data-entry-url="https://zhuanlan.zhihu.com/p/20332863">
+<textarea class="content hidden">&lt;img src=&quot;https://pic2.zhimg.com/8cd54f341e9be9492f103f161e7550c1_b.jpg&quot; data-rawwidth=&quot;0&quot; data-rawheight=&quot;0&quot; class=&quot;content_image&quot; width=&quot;0&quot;&gt;&lt;p&gt;又一个无意中被点赞到爆的回答...收集整理一下转到专栏来吧&lt;/p&gt;建筑面积54.65，实际使用面积40左右吧。&lt;br&gt;&lt;p&gt;15年前的老房子 幸运的是从来没有装修过 没有破怀过任何结构和墙体~ 无任何硬装/ 未铺地板 只有一层脏兮兮的地毯 / 没有布线 所有的线路都是裸露在外 / 没有改过水管 最老最老的那种镀锌铁管 / 甚至没有封阳台的窗户…这可是25楼….&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/e687f7c65d13e524304b1fd0ab40f5e0_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;600&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;王家卫电影中才会出现的灰暗系建筑~ 很有历史感~&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/fa97469987bbba8e5f81d6b83fbb2596_b.jpg&quot; data-rawwidth=&quot;577&quot; data-rawheight=&quot;1263&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;577&quot; data-original=&quot;https://pic3.zhimg.com/fa97469987bbba8e5f81d6b83fbb2596_r.jpg&quot;&gt;这是装修前的初始状态。&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/73d972c21db6596e6577d310dcec4027_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;214&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic4.zhimg.com/73d972c21db6596e6577d310dcec4027_r.jpg&quot;&gt;最后是无敌的…..海景阳台landscape view~ .. 真的很大…..&lt;br&gt;&lt;br&gt;大刀阔斧的设计开始鸟……第一部很重要!!! 捡起丢下了将近10年的 AutoCAD…自己画个图先~~ 熟悉的过程只用了三个小时.就有了下面的东东..事无巨细的平面图,导致装修公司的哥们觉得我是在抢饭碗…&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/8cd54f341e9be9492f103f161e7550c1_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;304&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic2.zhimg.com/8cd54f341e9be9492f103f161e7550c1_r.jpg&quot;&gt;平面布置图~&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/643fe4752e405abc2dc8a738e752324d_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;304&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic2.zhimg.com/643fe4752e405abc2dc8a738e752324d_r.jpg&quot;&gt;强电,电器插座布置图&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/db3d85cde859487b416e3037a082dfdc_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;340&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic1.zhimg.com/db3d85cde859487b416e3037a082dfdc_r.jpg&quot;&gt;照明排风系统图&lt;br&gt;&lt;br&gt;&lt;br&gt;因为对房子足够的熟悉~ 早已对每一个角落熟记于心.所以差不多一个晚上就把所有的设计稿全部搞定~ 和最终的方案还是有一些差别的~ 也懒得再去改稿子了~ 装修设计稿就是在装修中去修改的稿子…..&lt;br&gt;&lt;p&gt;拆旧的过程就不去复述了~ 很简单~ 砸砸砸~ 在确认过原始设计稿后 在合理的基础上进行房间尺寸的调整是很有必要的~&lt;br&gt;上点小照片~&lt;/p&gt;&lt;img src=&quot;https://pic2.zhimg.com/e97d60532b3be906c53ef17e7220dd35_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;600&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;p&gt;堆积如山的建筑垃圾~ 估计到装修结束 一共丢出去上百袋建筑垃圾…&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/82e96ca9d9f61eef3bfa8f3c7e5041eb_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;532&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;p&gt;把阳台多出来的部分切掉..&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/91dad2adcd2d2bd80b92d502423e2cc2_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;532&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;p&gt;断面&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/7f1909766ca2380ce622820404e66e41_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;434&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic2.zhimg.com/7f1909766ca2380ce622820404e66e41_r.jpg&quot;&gt;&lt;p&gt;上海很多人家都没有考虑过地暖~ 实际上这是很环保节能的东东~ 空调吹风很容易生病&lt;/p&gt;&lt;p&gt;日常使用费用和空调+电暖器的费用差不多~ 而且是一劳永逸的办法~ 十分推荐装&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/3ab10ca036001fdd9dcac468727223f9_b.jpg&quot; data-rawwidth=&quot;500&quot; data-rawheight=&quot;280&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;500&quot; data-original=&quot;https://pic2.zhimg.com/3ab10ca036001fdd9dcac468727223f9_r.jpg&quot;&gt;&lt;br&gt;如果说上面说的地暖是选备~ 那这个东东就属于必需品了~ 不是推荐 而是最好强制安装…&lt;br&gt;前置反冲洗过滤器 用于过滤水中的铁锈/渣滓/沉淀物 等对身体有害的东西. 在安装的时候 十分庆幸自己选择了这个，进水总管调换的时候 手指头伸进去…拿出来就不见了… 全是…..#000000 这个颜色.. 加上一些#2e0d09 这种颜色…自己去PS里面看吧…不堪入肚阿..而且这些残余物品对家里的水管/热水器/龙头/洗衣机的危害是很大的~ 不管经济允许不允许一定要装,不然到最后苦的是自己. (每个月打开反冲洗开关的时候,都很欣慰..看到滚滚而出的脏水..眼泪哗哗的…)&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/56968ffcd059199dd848c2c89bbf203d_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;326&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic2.zhimg.com/56968ffcd059199dd848c2c89bbf203d_r.jpg&quot;&gt;&lt;br&gt;安装完成的前置净水器&lt;br&gt;&lt;br&gt;家庭垃圾处理器~ 如果你不想家里的厨房 到处污水横流~&lt;br&gt;吃剩的饭菜 放在垃圾桶里一夜发叟~ 就把他请回家吧~ 很节约垃圾袋~ 无敌环保~&lt;br&gt;可以处理除了大骨头之外的几乎所有厨房生活垃圾~ 直接丢到水槽里面 打开开关打碎 就顺着你们家的下水道直接冲到小区排污系统去了~ 是不是很方便呢~ 从此以后手上再也不会沾上该死的剩菜油污了~ :)因为家里所有的厨房电器都选了FRANKE 这个牌子~ 垃圾处理也是他家的~ 来个官方图~&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/3838026a6ade590ae08e6b0c84503e2e_b.jpg&quot; data-rawwidth=&quot;191&quot; data-rawheight=&quot;282&quot; class=&quot;content_image&quot; width=&quot;191&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/cf0f5e1697238dffa7c88192146547fe_b.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;710&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;每个人家里都有~ 但是几乎没有人关注过~ 断路器~&lt;br&gt;需要根据家中的用电量峰值进行详细的计算~ 因为家中有地暖~ 考虑到最高峰值就买了63A的总开&lt;br&gt;&lt;br&gt;后面 照明/客厅/厨房/浴室/卧室/地暖 每一路都有单独的断路器来控制~ 如果出现问题 很容易就可以排查出来~&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/ea4df25770eff043367b264fa5eb5754_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;326&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic1.zhimg.com/ea4df25770eff043367b264fa5eb5754_r.jpg&quot;&gt;&lt;br&gt;难看的多媒体控制中心..里面放着千兆网络和分频保密电话模块~ 蜘蛛网一样的线阿…&lt;br&gt;反正在桌子下面 平时看不到~在这里可以连接和管理全家的网络系统~ 在卧室就可以看客厅电脑里的电影~&lt;br&gt;&lt;br&gt;&lt;p&gt;家中门口有一个直角墙~ 正对大门~ 如何让他看起来更协调呢~&lt;br&gt;解决办法就是把她做成弧线的~~ 最终效果很是满意~&lt;/p&gt;&lt;p&gt;来点过程合集：&lt;/p&gt;&lt;img src=&quot;https://pic3.zhimg.com/93a018d88390c0889b28ab4332775ffa_b.jpg&quot; data-rawwidth=&quot;1600&quot; data-rawheight=&quot;1425&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1600&quot; data-original=&quot;https://pic3.zhimg.com/93a018d88390c0889b28ab4332775ffa_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;废话少说 直接上完成图。&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/600f9d849a2bc8d49057c4efe8ab2620_b.jpg&quot; data-rawwidth=&quot;600&quot; data-rawheight=&quot;900&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;600&quot; data-original=&quot;https://pic1.zhimg.com/600f9d849a2bc8d49057c4efe8ab2620_r.jpg&quot;&gt;完工的弧形墙。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/7724e1dc608072707a76f50ddc94ecd1_b.jpg&quot; data-rawwidth=&quot;387&quot; data-rawheight=&quot;580&quot; class=&quot;content_image&quot; width=&quot;387&quot;&gt;&lt;br&gt;客厅&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/f39d75c1a934bdd31b1b1e41d6bc32e0_b.jpg&quot; data-rawwidth=&quot;1600&quot; data-rawheight=&quot;1066&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1600&quot; data-original=&quot;https://pic1.zhimg.com/f39d75c1a934bdd31b1b1e41d6bc32e0_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/5c9637d968186b967faff0d27bd730d8_b.jpg&quot; data-rawwidth=&quot;1600&quot; data-rawheight=&quot;1695&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1600&quot; data-original=&quot;https://pic1.zhimg.com/5c9637d968186b967faff0d27bd730d8_r.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/e9629469b79170a072671e42b3a5a527_b.jpg&quot; data-rawwidth=&quot;1465&quot; data-rawheight=&quot;1033&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1465&quot; data-original=&quot;https://pic4.zhimg.com/e9629469b79170a072671e42b3a5a527_r.jpg&quot;&gt;&lt;br&gt;客厅合集&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/f0c7d445b6da19ee5baf95a98f02fc8e_b.jpg&quot; data-rawwidth=&quot;387&quot; data-rawheight=&quot;580&quot; class=&quot;content_image&quot; width=&quot;387&quot;&gt;&lt;br&gt;由于觉得厨房门都很丑，直接找了橱柜门来做厨房的门。&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/83d9082a8370ffb8770c5210dd438208_b.jpg&quot; data-rawwidth=&quot;387&quot; data-rawheight=&quot;580&quot; class=&quot;content_image&quot; width=&quot;387&quot;&gt;&lt;br&gt;厨房内&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/aa2acf1446eb8c8994d8453ecab22749_b.jpg&quot; data-rawwidth=&quot;774&quot; data-rawheight=&quot;1377&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;774&quot; data-original=&quot;https://pic2.zhimg.com/aa2acf1446eb8c8994d8453ecab22749_r.jpg&quot;&gt;&lt;br&gt;厨房合集&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/164e59833bd6e583342e4ef689c21d9d_b.jpg&quot; data-rawwidth=&quot;800&quot; data-rawheight=&quot;1022&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic2.zhimg.com/164e59833bd6e583342e4ef689c21d9d_r.jpg&quot;&gt;&lt;b&gt;《彩蛋：谁知道这是什么情况。》&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/1b7e7ad25861094554d03861d2e64efa_b.jpg&quot; data-rawwidth=&quot;1000&quot; data-rawheight=&quot;608&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1000&quot; data-original=&quot;https://pic3.zhimg.com/1b7e7ad25861094554d03861d2e64efa_r.jpg&quot;&gt;&lt;br&gt;总面积只有4平方的浴室分淋浴区，185全尺寸浴缸，洗手台，马桶。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/061b3e437bd1ff5e0d01064de81b097c_b.jpg&quot; data-rawwidth=&quot;878&quot; data-rawheight=&quot;1449&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;878&quot; data-original=&quot;https://pic1.zhimg.com/061b3e437bd1ff5e0d01064de81b097c_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/ee2e637350884d555d97a7888de605ea_b.jpg&quot; data-rawwidth=&quot;1349&quot; data-rawheight=&quot;1941&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1349&quot; data-original=&quot;https://pic3.zhimg.com/ee2e637350884d555d97a7888de605ea_r.jpg&quot;&gt;&lt;br&gt;浴室合集&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/411a88dc2f17c00874eda384d1d03f88_b.jpg&quot; data-rawwidth=&quot;580&quot; data-rawheight=&quot;387&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;580&quot; data-original=&quot;https://pic1.zhimg.com/411a88dc2f17c00874eda384d1d03f88_r.jpg&quot;&gt;&lt;br&gt;卧室&lt;p&gt;很多人问洗衣机，衣柜，临时草绘了一张示意图。自己参考吧。&lt;/p&gt;&lt;p&gt;充分的利用每一厘米，床下，衣柜上，电视柜等都有很多空间可以利用~ &lt;/p&gt;&lt;p&gt;加油吧！&lt;/p&gt;&lt;img src=&quot;https://pic1.zhimg.com/198d287dfd841bfa346eeca27fdb5ef8_b.png&quot; data-rawwidth=&quot;2362&quot; data-rawheight=&quot;1228&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2362&quot; data-original=&quot;https://pic1.zhimg.com/198d287dfd841bfa346eeca27fdb5ef8_r.png&quot;&gt;&lt;p&gt;&lt;br&gt;Done.&lt;/p&gt;&lt;p&gt;--------------------------------------------------------------------------------------------&lt;br&gt;&lt;/p&gt;&lt;br&gt;著作权归作者所有。&lt;br&gt;商业转载请联系作者获得授权，非商业转载请注明出处，并附有专栏链接。&lt;br&gt;作者：token胡依林&lt;br&gt;新浪微博 :  @TOKEN胡依林 &lt;a href=&quot;https://link.zhihu.com/?target=http%3A//weibo.com/tokenx&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;weibo.com/tokenx&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;知乎专栏：&lt;a href=&quot;https://link.zhihu.com/?target=http%3A//talk.tokenx.com/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;http://t.niu.com&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; (短域名跳转)&lt;br&gt;&lt;br&gt;--------------------------------------------------------------------------------------------&lt;br&gt;&lt;p&gt;推荐一款比AUTOCAD 挂天正简单无数倍的装修软件，没办法输出特别专业的工程图，但是家庭装修够用了。后面几次装修studio和办公室都是用这个在做了，从50平到1500平都能轻松应对，兼具2D/3D输出.虽然3D效果很渣，但是输出的PDF 2D图糊一下装修公司的设计师还是绰绰有余的。&lt;br&gt;&lt;br&gt;PS：只用过mac版，如果觉得好用还是购买正版，appstore有售. 一次装修节省的时间、金钱、精力绝对回本了.&lt;br&gt;&lt;br&gt;软件名称：myfourwalls&lt;br&gt;&lt;br&gt;&lt;img data-rawwidth=&quot;800&quot; data-rawheight=&quot;500&quot; src=&quot;https://pic4.zhimg.com/d14908419d5c4fe0313f45143773b417_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/d14908419d5c4fe0313f45143773b417_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;img data-rawwidth=&quot;800&quot; data-rawheight=&quot;500&quot; src=&quot;https://pic4.zhimg.com/f8895bd6810d833774a3fc9a69d28d0f_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic4.zhimg.com/f8895bd6810d833774a3fc9a69d28d0f_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;img data-rawwidth=&quot;800&quot; data-rawheight=&quot;500&quot; src=&quot;https://pic3.zhimg.com/944c49ce8b40593a4c7a3182ebc60ac2_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic3.zhimg.com/944c49ce8b40593a4c7a3182ebc60ac2_r.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;img data-rawwidth=&quot;800&quot; data-rawheight=&quot;500&quot; src=&quot;https://pic1.zhimg.com/da1d12a53304bf03801f273c47d8c338_b.jpg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;800&quot; data-original=&quot;https://pic1.zhimg.com/da1d12a53304bf03801f273c47d8c338_r.jpg&quot;&gt;&lt;/p&gt;</textarea>
+<div class="zh-summary summary clearfix">
+<img src="https://pic1.zhimg.com/e687f7c65d13e524304b1fd0ab40f5e0_200x112.jpg" data-rawwidth="400" data-rawheight="600" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/e687f7c65d13e524304b1fd0ab40f5e0_r.jpg">又一个无意中被点赞到爆的回答...收集整理一下转到专栏来吧建筑面积54.65，实际使用面积40左右吧。 15年前的老房子 幸运的是从来没有装修过 没有破怀过任何结构和墙体~ 无任何硬装/ 未铺地板 只有一层脏兮兮的地毯 / 没有布线 所有的线路都是裸露在外 / 没…
+
+<a href="https://zhuanlan.zhihu.com/p/20332863" class="toggle-expand">显示全部</a>
+
+</div>
+<div class="Tipjar-entry hidden js-tipjar">
+<div class="Tipjar-tagLine">「真诚赞赏，手留余香」</div>
+<a href="http://zhuanlan.zhihu.com/p/20332863#tipjar" target="_blank" class="Tipjar-entryButton">赞赏</a>
+</div>
+<p class="hidden-default"><a class="post-link entry-link" target="_blank" href="https://zhuanlan.zhihu.com/p/20332863">2015-11-11</a></p>
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta meta clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+
+<a data-follow="c:link" class="zg-follow meta-item js-followButton" href="#" id="cl-4788"><i class="z-icon-follow"></i>关注专栏</a>
+
+<a href="#" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>979 条评论</a>
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+<span class="zg-bull zu-autohide">•</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+<span class="zg-bull">•</span>
+<a href=https://zhuanlan.zhihu.com/p/20332863 class="meta-item" target="_blank">去往文章页</a>
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="5">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-6
+ 
+"
+feed-item-a data-type="a"
+id="feed-6"
+>
+<meta itemprop="ZReactor" data-id="49449380" data-meta="{&quot;source_type&quot;: &quot;favorites_collect_answer&quot;, &quot;voteups&quot;: 135, &quot;comments&quot;: 47, &quot;source&quot;: []}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="尤子涵"
+data-hovercard="p$t$you-zi-han"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/you-zi-han">
+<img src="https://pic2.zhimg.com/b478fb539_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+<a href="https://www.zhihu.com/collection/19770547" target="_blank" data-za-element-name="Title">高质量实物；欲望清单</a> 收藏了回答
+
+<span class="zg-bull">•</span>
+<span class="time" data-timestamp="1481143220000">3 周前</span>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="49449380">
+<meta itemprop="answer-url-token" content="134816534">
+<h2 class="feed-title"><a class="question_link" href="/question/24986912/answer/134816534" target="_blank" data-id="2176722" data-za-element-name="Title">
+为什么外国人经常在床尾紧贴着摆一条长凳子？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<div class="question-description-plain zm-editable-content">
+
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/24986912/answer/134816534">
+<!-- <meta itemprop="answer-id" content="49449380">
+<meta itemprop="answer-url-token" content="134816534"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>135</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">135</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$zhao-ce-ming"
+target="_blank" href="/people/zhao-ce-ming"
+>赵策明</a></span><span title="从业中......" class="bio">
+从业中......
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="135">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">135</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2176722" data-action="/answer/content" data-author-name="赵策明" data-entry-url="/question/24986912/answer/134816534">
+
+<textarea hidden class="content">首先呢这条凳子叫床尾凳， 英文Bed End Stool，也有叫Storage Bench；&lt;br&gt;之所以一直保留是因为很实用，功能大概有这几个：&lt;br&gt;&lt;ul&gt;&lt;li&gt;床尾凳可以拖到窗台边，坐在上面欣赏户外美景，在欧美剧内也常见小孩把凳子拖到窗户旁边，跪在上面玩耍观景。&lt;br&gt;&lt;/li&gt;&lt;li&gt;可以作为长凳，坐在上面或者躺在上面看书、休息、换鞋、待客（友人聊天坐位）...&lt;br&gt;&lt;/li&gt;&lt;li&gt;放置衣服，你可以把睡衣、换下来的衣服，甚至是第二天要穿的衣服放在床尾凳上（欧美衣柜没有明日衣钩的选项）。&lt;br&gt;&lt;/li&gt;&lt;li&gt;可以放置其他杂物，比如放几本常看的书、杂志，刚从烘干机收回来还没来得及放进衣橱的衣服等。&lt;br&gt;&lt;/li&gt;&lt;li&gt;对于有洁癖的主人来说，客人参观卧室时可以直接请他/她们坐在床尾凳上，可以保证床单的整洁。 　&lt;/li&gt;&lt;/ul&gt;至于起源，目前没有找到特别明确的时间。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+首先呢这条凳子叫床尾凳， 英文Bed End Stool，也有叫Storage Bench； 之所以一直保留是因为很实用，功能大概有这几个： 床尾凳可以拖到窗台边，坐在上面欣赏户外美景，在欧美剧内也常见小孩把凳子拖到窗户旁边，跪在上面玩耍观景。 可以作为长凳，坐在上面…
+
+<a href="/question/24986912/answer/134816534" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/24986912/answer/134816534">发布于 2016-12-07</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2176722"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>47 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic1.zhimg.com/4fcd7f1558f14edea56bf5c6e4bf5f18_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=134816534" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="6">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-7
+ 
+"
+feed-item-a data-type="a"
+id="feed-7"
+>
+<meta itemprop="ZReactor" data-id="1044966" data-meta="{&quot;source_type&quot;: &quot;promotion_answer&quot;, &quot;voteups&quot;: 6235, &quot;comments&quot;: 1790, &quot;source&quot;: []}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="王亚晖"
+data-hovercard="p$t$superwyh"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/superwyh">
+<img src="https://pic1.zhimg.com/892631b9705eff977de8a7d343b6ab20_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+热门回答，来自 <a href="/topic/19553176" data-hovercard="t$b$19553176" data-token="19553176" data-topicid="988" target="_blank" data-za-element-name="Title">教育</a> <a data-follow="t:link" href="javascript:;" class="zg-follow zu-autohide follow-topic zu-edit-button" data-id="988">关注话题</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="1044966">
+<meta itemprop="answer-url-token" content="14806109">
+<h2 class="feed-title"><a class="question_link" href="/question/20336539/answer/14806109" target="_blank" data-id="314968" data-za-element-name="Title">
+在外国学生眼中，中国留学生是一个什么样的群体？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<div class="question-description-plain zm-editable-content">
+
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/20336539/answer/14806109">
+<!-- <meta itemprop="answer-id" content="1044966">
+<meta itemprop="answer-url-token" content="14806109"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>6235</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">6235</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$superwyh"
+target="_blank" href="/people/superwyh"
+>王亚晖</a></span><span title="做过游戏，在搞漫画" class="bio">
+做过游戏，在搞漫画
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="6235">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">6235</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="314968" data-action="/answer/content" data-author-name="王亚晖" data-entry-url="/question/20336539/answer/14806109">
+
+<textarea hidden class="content">正好以前跟我教授聊过这类问题，就谈谈美国的。&lt;ol&gt;&lt;li&gt;不善交际。基本上你很难看到中国人过多的参加很多社团活动和学校的活动，即便参加也是几个中国学生一起去，很少见到单个一个去的。我曾经一个美国朋友告诉我，我是他第一次中国朋友，因为以前虽然班上很多中国学生，但是很少能接触到。&lt;/li&gt;&lt;li&gt;有钱。这点我无数美国朋友都对我感叹过，留学生开宝马已经不算什么，我身边有开阿斯顿马丁的、有开法拉利的，还有家里屯着一辆Q7，一辆X6M，一辆极光的，基本上中国学生开个 Party 就是豪车展。诚然，主要跟这几天富二代和官二代大批出国有关，加上花的也不是很节制。&lt;/li&gt;&lt;li&gt;成绩差？成绩好？美国人对中国学生的成绩概念基本两极分化很严重，事实上也是两极分化，基本上理工科正常课程班里成绩比较好的总有中国学生的面孔，但是班里明显鬼混的也总有中国学生的面孔。&lt;/li&gt;&lt;li&gt;素质低。这个其实没有人明确跟我说过，但是私底下还是会听到别人议论。主要表现在用餐和社交礼仪上（用餐我觉得不是大问题，社交礼仪确实相对欠缺）。&lt;/li&gt;&lt;li&gt;不健康。美国比较崇尚运动，也习惯于把不喜欢运动的人一律视为不健康的人。曾经我美国同学做过一个 Presentation 谈东亚人生活习惯就特别提到过这个，大区域的情况，整个亚洲人其实都差不多。　&lt;/li&gt;&lt;li&gt;享受独裁。这个比较无奈。总有些不长眼的美国人讨论中国的民主问题，就出来几个学生面红耳赤的去跟他们辩论。我教授曾经很不好意思的问我，是不是中国学生认为民主让他们很不舒服，所以习惯享受独裁这个过程……&lt;/li&gt;&lt;/ol&gt;当然事情都不是绝对的，上面只是一个宏观印象。个体例外还是很多的。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+正好以前跟我教授聊过这类问题，就谈谈美国的。不善交际。基本上你很难看到中国人过多的参加很多社团活动和学校的活动，即便参加也是几个中国学生一起去，很少见到单个一个去的。我曾经一个美国朋友告诉我，我是他第一次中国朋友，因为以前虽然班上很多中国…
+
+<a href="/question/20336539/answer/14806109" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2012-07-07" target="_blank" href="/question/20336539/answer/14806109">编辑于 00:18</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-314968"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>1783 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="7">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-8
+ 
+"
+feed-item-a data-type="a"
+id="feed-8"
+>
+<meta itemprop="ZReactor" data-id="50756248" data-meta="{&quot;source_type&quot;: &quot;topic_acknowledged_answer&quot;, &quot;voteups&quot;: 12, &quot;comments&quot;: 4, &quot;source&quot;: [[&quot;topic&quot;, 1774]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="房产" data-hovercard="t$t$19555559"
+class="zm-item-link-avatar"
+href="/topic/19555559"
+target="_blank">
+<img src="https://pic3.zhimg.com/7515731c6_m.jpg" alt="房产" class="side-topic-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+来自话题: <a href="/topic/19555559" data-hovercard="t$b$19555559" data-token="19555559" data-topicid="1774" target="_blank" data-za-element-name="Title">房产</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="50756248">
+<meta itemprop="answer-url-token" content="138078818">
+<h2 class="feed-title"><a class="question_link" href="/question/53282883/answer/138078818" target="_blank" data-id="13531809" data-za-element-name="Title">
+中国政府为什么不愿意收房产税？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<div class="question-description-plain zm-editable-content">
+
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/53282883/answer/138078818">
+<!-- <meta itemprop="answer-id" content="50756248">
+<meta itemprop="answer-url-token" content="138078818"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>12</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">12</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$wangjiye"
+target="_blank" href="/people/wangjiye"
+>信托扫雷鼠</a></span><span title="信托易，www.xintuoyi.com" class="bio">
+信托易，<a href="//link.zhihu.com/?target=http%3A//www.xintuoyi.com" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">http://www.</span><span class="visible">xintuoyi.com</span><span class="invisible"></span><i class="icon-external"></i></a>
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="12">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">12</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="13531809" data-action="/answer/content" data-author-name="信托扫雷鼠" data-entry-url="/question/53282883/answer/138078818">
+
+<textarea hidden class="content">要分析这个问题，先得弄清楚房产税出台后，房价会涨还是会跌。&lt;br&gt;我的判断是：&lt;b&gt;房价会加速下跌&lt;/b&gt;。&lt;br&gt;为什么说是“下跌”呢？&lt;br&gt;因为房价从长期来说，还是与新增的城市化人口直接相关的。中国目前的城市化进程虽没到末期，但也已经过了中点了，所以从总体来看，房价已经不具备持续大幅上涨的支撑，未来房价将会逐渐调整到“房价收入比”合理的水平。当然，局部地区会有例外，例如一线城市和部分热点二线城市。但房产税是针对全国的，所以还是以全国总体房价的未来走势为分析条件。&lt;br&gt;为什么是“加速”下跌呢？&lt;br&gt;因为房产税会增加持有成本，降低房产投资的获利空间，从而使得房产的新增投资需求减少，也会让一部分持有房产投资的人选择卖出房产，所以会在下跌的大趋势上，进一步加速下跌。&lt;br&gt;&lt;br&gt;有的人判断房产税会引起房价进一步上涨，因为卖房者会把房产税所带来的成本转嫁到买房人的头上。&lt;br&gt;我觉得&lt;b&gt;这个逻辑并不是适合现阶段及未来的社会经济形势&lt;/b&gt;。这个逻辑的前提是卖房者持有房产是投资，如果觉得价格不合适，可以不卖，但买房者是刚需，必须得买。两者相比，卖房者更有谈判的力量，所以能够把所有成本转嫁给买房者。&lt;br&gt;当新增的城市化人口急剧增加，房子的需求远大于供给时，房产升值预期高，卖房者能够相对强势。但是，如果新增的购房人口减少，需求与供给的相对关系就会发生变化。房产的升值预期一旦失去或者有贬值的预期，买房者就会比卖方者更强势。&lt;br&gt;&lt;b&gt;价格终归还是由供需关系直接决定的，与成本关系不大&lt;/b&gt;。卖房的人只会根据市场行情来判断自己卖的价格是不是合适，而不是根据自己的成本和预期的投资收益。新增城市化人口减少这一大趋势决定了未来房产的供需状况会与以前不一样，房产税不可能影响到趋势的方向。&lt;br&gt;&lt;br&gt;接下来在“房产税会引起房价加速下跌”这一基础性判断上讨论“中国政府为什么不愿意收房产税”。如果你不同意前面的基础性判断，下面的就可以不用看了。&lt;br&gt;&lt;br&gt;中国政府之所以迟迟不实质性地推进房产税，总体原因就在于：&lt;b&gt;政府希望房价稳中缓升，并不希望房价下跌&lt;/b&gt;。具体有以下几方面的考虑：&lt;br&gt;&lt;b&gt;1、远水解不了近渴&lt;/b&gt;&lt;br&gt;在目前的“分税制”体制下，土地出让金是地方政府非常重要的财政收入来源。如果土地出让金下降过快，地方政府的日子会很难过。我们看一下过去几年全国的土地出让金收入：&lt;br&gt;2011，32126亿元；&lt;br&gt;2012，28042亿元；&lt;br&gt;2013，39073亿元；&lt;br&gt;2014，40386亿元；&lt;br&gt;2015，30784亿元；&lt;br&gt;&lt;br&gt;土地出让金相当于一下子收取未来70年的土地使用费用，但房产税则是一年一年的收，即使70年累计增加的收税额超过减少的土地出让金好几倍，也是远水解不了近渴。&lt;br&gt;&lt;br&gt;&lt;b&gt;2、害怕引起多米诺骨牌倒塌&lt;/b&gt;&lt;br&gt;中国的地方政府债务中，很多是以土地抵押作为保障的，也有很多是以未来的土地出让金收入作为还款来源的。中国的金融系统中，很大一部分贷款和债权也是以不动产抵押作为保障。所以，一旦土地和房产的价格下跌，很可能会带来系统性金融风险，引起金融危机。&lt;br&gt;&lt;br&gt;&lt;b&gt;3、害怕引起房地产关联行业下滑&lt;/b&gt;&lt;br&gt;从产业关联的角度来说，房地产对钢铁、水泥、建筑机械、建筑施工等行业的带动作用还是很大的。一旦房价明显下跌，短期内肯定会引起房地产开工量和施工量下降，从而带动一些关联行业下降，引发短期的经济衰退。&lt;br&gt;不过，我认为这个影响不会持续时间太长，市场会通过自身的调整在新的价格上达成供需平衡，房地产的开工和施工量也会逐渐恢复。经历了2008年的金融危机后，美国的房地产在2009年就开始恢复了。&lt;br&gt;&lt;br&gt;因为上述3个原因，政府在房产税上不得不像踩钢丝一样小心翼翼。政府希望最好在开征房产税的同时，房价能够保持平稳，但这点很难确保做到。然而，土地出让金在地方政府收入中的比重正在缓慢降低，房产税也会越来越近。上述3个原因只会影响房产税的早晚，房产税最终会来的。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+要分析这个问题，先得弄清楚房产税出台后，房价会涨还是会跌。 我的判断是：<b>房价会加速下跌</b>。 为什么说是“下跌”呢？ 因为房价从长期来说，还是与新增的城市化人口直接相关的。中国目前的城市化进程虽没到末期，但也已经过了中点了，所以从总体来看，房价…
+
+<a href="/question/53282883/answer/138078818" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-12-28" target="_blank" href="/question/53282883/answer/138078818">编辑于 昨天 10:43</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-13531809"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>4 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/v2-2ead072802f8b98bf97b566a324589bb_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=138078818" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="8">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook actioncard" data-type="ac">
+<meta itemprop="ZReactor" data-id="2" data-meta="{&quot;source_type&quot;: &quot;suggested_topics&quot;, &quot;source&quot;: [[&quot;topic&quot;, 1538], [&quot;topic&quot;, 28164], [&quot;topic&quot;, 6726], [&quot;topic&quot;, 1098], [&quot;topic&quot;, 4075], [&quot;topic&quot;, 8973], [&quot;topic&quot;, 304], [&quot;topic&quot;, 404], [&quot;topic&quot;, 4217], [&quot;topic&quot;, 3930]]}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<img src="https://static.zhihu.com/static/revved/img/topstory/actioncard-suggested-avatar.c5af416d.png" class="actioncard-avatar">
+</div>
+<div class="feed-main">
+<div class="feed-content">
+<meta name="actionCardType" content="suggested_topics">
+<div class="actioncard-body clearfix">
+
+<h2>你可能感兴趣的话题</h2>
+
+<div class="pager zg-right">
+<a class="prev disabled">上一页</a>
+<a class="next">下一页</a>
+</div>
+<div class="zg-gray-normal">
+动态中会根据关注话题显示更适合你的内容，<a class="more zg-link-litblue-normal" href="/topics" target="_blank">查看全部推荐</a>
+</div>
+<script type="text/html" class="js-hidden-list">
+
+
+<div class="item suggested clearfix" data-token="19562435" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19562435" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic4.zhimg.com/d6b1c3d193581b4110a3ea289c7f5623_xl.png" alt="食品安全">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19562435" class="name-link ellipsis" data-hovercard="t$b$19562435">食品安全</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="4075" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19577124" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19577124" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic1.zhimg.com/335a695b0_xl.jpg" alt="戏剧">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19577124" class="name-link ellipsis" data-hovercard="t$b$19577124">戏剧</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="8973" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19551137" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19551137" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic1.zhimg.com/975baaf73fd76f48ce6f05e19b176878_xl.jpg" alt="美食">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19551137" class="name-link ellipsis" data-hovercard="t$b$19551137">美食</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="304" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19551432" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19551432" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic2.zhimg.com/7a579133e50fc9125ff7cda05249fcf1_xl.jpg" alt="心理学">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19551432" class="name-link ellipsis" data-hovercard="t$b$19551432">心理学</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="404" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19562906" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19562906" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic3.zhimg.com/f5b4524ab48273ed913a113d84ba009e_xl.png" alt="化学">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19562906" class="name-link ellipsis" data-hovercard="t$b$19562906">化学</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="4217" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19561988" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19561988" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic3.zhimg.com/a3b82d40a0fcf4a95422d8bf33c95b36_xl.png" alt="审计">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19561988" class="name-link ellipsis" data-hovercard="t$b$19561988">审计</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="3930" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+
+</script>
+
+<div class="items-outer">
+<div class="items suggested-list js-list clearfix">
+
+
+<div class="item suggested clearfix" data-token="19554827" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19554827" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic2.zhimg.com/c8f2d728879d05657d86ca6fa6b0336d_xl.jpg" alt="体育">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19554827" class="name-link ellipsis" data-hovercard="t$b$19554827">体育</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="1538" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19634400" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19634400" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic2.zhimg.com/a2cb66ac5f9e0f8e89e105cedca59c61_xl.png" alt="财务指标">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19634400" class="name-link ellipsis" data-hovercard="t$b$19634400">财务指标</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="28164" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19570369" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19570369" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic4.zhimg.com/e61a64d031d1530d792035bdaa63e91f_xl.jpg" alt="新三板">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19570369" class="name-link ellipsis" data-hovercard="t$b$19570369">新三板</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="6726" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+<div class="item suggested clearfix" data-token="19553524" data-reason="4">
+<a href="#" class="ignore zu-autohide js-ignore suggested-ignore" data-tooltip="s$b$不感兴趣"></a>
+<a target="_blank" href="/topic/19553524" class="suggested-img-wrap" tabindex="-1">
+<img class="suggested-img" src="https://pic1.zhimg.com/7b06194f7ca20de18efa1c57bbc77d5c_xl.png" alt="知识产权">
+</a>
+<div class="item-body suggested-intro">
+<div class="suggested-name"><a target="_blank" href="/topic/19553524" class="name-link ellipsis" data-hovercard="t$b$19553524">知识产权</a></div>
+<div class="suggested-reason"><span class="zg-gray-normal">编辑推荐</span></div>
+</div>
+<button data-follow="t:button" data-id="1098" class="zg-btn zg-btn-follow zm-rich-follow-btn">关注</button>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item folding feed-item-hook feed-item-9
+ 
+"
+feed-item-a data-type="a"
+id="feed-9"
+>
+<meta itemprop="ZReactor" data-id="1215777" data-meta="{&quot;source_type&quot;: &quot;promotion_answer&quot;, &quot;voteups&quot;: 3870, &quot;comments&quot;: 466, &quot;source&quot;: []}" >
+<div class="feed-item-inner">
+<div class="avatar">
+<a title="苏菲"
+data-hovercard="p$t$su-fei-17"
+class="zm-item-link-avatar"
+target="_blank"
+href="/people/su-fei-17">
+<img src="https://pic2.zhimg.com/v2-aac5d5031502e58551a58afd3d6acaa1_m.jpg" class="zm-item-img-avatar">
+</a>
+</div>
+<div class="feed-main">
+<div class="feed-source" data-za-module="FeedSource">
+热门回答，来自 <a href="/topic/19550917" data-hovercard="t$b$19550917" data-token="19550917" data-topicid="229" target="_blank" data-za-element-name="Title">日本</a> <a data-follow="t:link" href="javascript:;" class="zg-follow zu-autohide follow-topic zu-edit-button" data-id="229">关注话题</a>
+
+</div>
+<div class="feed-content">
+<meta itemprop="answer-id" content="1215777">
+<meta itemprop="answer-url-token" content="15221623">
+<h2 class="feed-title"><a class="question_link" href="/question/20472563/answer/15221623" target="_blank" data-id="369441" data-za-element-name="Title">
+日本的留学生活是怎么样的？
+</a></h2>
+<div class="feed-question-detail-item">
+
+<a href="#" class="toggle-expand btn-toggle-question-detail ellipsis js-expandQuestionDetail">1.学习生活上会对留学生有不公平待遇么？...&nbsp;<span>显示问题详情</span></a>
+<div class="question-description zm-editable-content">
+1.学习生活上会对留学生有不公平待遇么？尤其是在现在中日关系不好的时候？<br>2.毕业之后的就业大致情况。定居？移民？<br>3.本国人难相处和交往么？<br>4.听说日本生活开销很大，大概每个月的费用多少<br>5.听说日本有留学生优惠计划。不知道有奖学金或者学习生活补助么<br>6.听说日本的生活压力很大，是工作难找？还是来自什么的？<br>现在大概就想到这几个的说，我觉得已经很多了<br>大概就是想问一下实际的如果去上学生活，大概需要注意些什么，要做好一些什么心理准备之类的
+</div>
+
+</div>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/20472563/answer/15221623">
+<!-- <meta itemprop="answer-id" content="1215777">
+<meta itemprop="answer-url-token" content="15221623"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>3870</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">3870</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$su-fei-17"
+target="_blank" href="/people/su-fei-17"
+>苏菲</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/su-fei-17#hilightbadge" target="_blank">日本文化话题优秀回答者</a></span>
+
+
+
+<span title="欢迎收听我的日本留学 就职live，可结束后购买，一次解决你的大部分问题和不安" class="bio">
+欢迎收听我的日本留学 就职…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="3870">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">3870</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="369441" data-action="/answer/content" data-author-name="苏菲" data-entry-url="/question/20472563/answer/15221623">
+
+<textarea hidden class="content">谢喵。先来抛砖引玉一下。&lt;br&gt;&lt;b&gt;提前需要说明的是，在日本的中国人各自过着很不同的生活，有的人过的很开心有的人每天抱怨，所以每个人的看法都不一定全面。&lt;/b&gt;所以我帮楼主又邀请了几个我知道的留学生。&lt;br&gt;&lt;br&gt;1.学习生活上会对留学生有不公平待遇么？尤其是在现在中日关系不好的时候？&lt;br&gt;一般没有。&lt;br&gt;有些人会说研究室的日本人歧视自己，或者说老师对留学生不好，这个情况是存在的。一种情况是教授的确极品，目前为止在我认识的上百留学生中听说过1,2例。另一种是这个人自己也有点问题，把过错推到教授歧视他身上。大部分教授都是对留学生格外亲切，对日本人比较不好。反正在日本比我在国内某城市感觉到的“歧视”少得多得多。我感到非常的受尊重。&lt;br&gt;留学生有很多奖学金，都是白给的。而日本人的奖学金一般都是要工作之后还的。&lt;br&gt;&lt;br&gt;2.毕业之后的就业大致情况。定居？移民？&lt;br&gt;就业肯定是不如国内容易，因为国内的公司100%收的是中国人。但是考虑到你的期望值什么的，也不好说。但是肯定比欧美国家容易多了。日本人对于中国人的接受程度很高了。&lt;br&gt;就业不像国内临毕业几个月找找，而是一项毕业一年之前就开始，耗时耗力的工作。难度不好说，看个人能力。像中国人很多非咨询投行名公司不去，还很看重待遇，自然是很难找。但是一般来说学校有名，日语好英语好要“找到”是没问题。日本人除了真正的一些精英，其他人竞争力并不高。&lt;br&gt;目前就舆论来说倾向于拿绿卡的比倾向于移民的多。一个是怕被人指点，一个也是感觉中国以后会崛起不愿意放弃中国国籍。&lt;br&gt;&lt;br&gt;3.本国人难相处和交往么？&lt;br&gt;看相处和交往到什么程度。大部分日本人，只要遵循一个说话的规律，是非常好相处的。他们对人非常友好，说话的时候会考虑对方。开始比欧美人好交。但是很难交往深刻，这点不是针对外国人，就连他们自己也感叹和同胞难以交往很深。这是由他们的民族性决定的。他们就是不太喜欢对人完全推心置腹，喜欢留出一定的空间。然而如果你日语比较好运气好还是能交到很好的朋友。&lt;br&gt;&lt;br&gt;4.听说日本生活开销很大，大概每个月的费用多少&lt;br&gt;仅举东京，其他地方大概会低一些：&lt;br&gt;留学生的开销，基本上是住宿，学费，吃这三大块。&lt;br&gt;&lt;br&gt;学费：东京大学是国立，硕士一年52万日元，私立要贵1.5倍以上&lt;br&gt;住宿：都内比较正常的房子一般要5-7万一个月，如果住在千叶埼玉等比较远的地方可以压缩在4万。学校的宿舍一般3-5万。&lt;br&gt;吃：留学生应酬少，3万一个月足够了。特别省的有的也能吃2万。&lt;br&gt;交通费：视离学校远近和交通方式4-8k一个月不等&lt;br&gt;&lt;br&gt;女生开销要高一点因为要有化妆品和衣服的投入。&lt;br&gt;开销根据每个人情况不同实际上差距很大。除掉学费每个月10万的也有，20万的也有，但是基本在这个区间内。&lt;br&gt;&lt;br&gt;5.听说日本有留学生优惠计划。不知道有奖学金或者学习生活补助么&lt;br&gt;奖学金多，可以申请学费减免而已。申不申得上要看自己和运气。&lt;br&gt;&lt;br&gt;6.听说日本的生活压力很大，是工作难找？还是来自什么的？ &lt;br&gt;主要有这么几点，&lt;br&gt;1）工作压力大。日本的加班文化很严重。日本人也会长时间劳动。&lt;br&gt;2）时刻不能忘记礼仪。无论做什么都要时刻注意保持礼仪消耗的体力会很大。偶尔跟中国朋友到中国餐馆吵吵闹闹一晚上觉得特别减压。&lt;br&gt;3）时间表满。玩也是卖命的玩，悠闲的时间挺少的。好玩的好吃的好看的特别多，加上日本国内各种团体各种组织天天召集各种活动，就不由自主把时间表排的特别满。比如中午吃饭下午去主题公园玩晚上再吃饭再去卡拉ok什么的。日本人也感叹过我们玩都这么紧张，哪儿像欧洲人自己找个公园一躺，那才是真正的休息。&lt;br&gt;&lt;br&gt;其他的原因也有很多。比如有的人朋友少，有的人想家，有的人研究室特别忙，这都因人而异了。但是过什么样的生活终究是自己选的。我也认识有的来了不管别人怎么做自己还是天天宅家里看动画片，过的也毫无压力。&lt;br&gt;&lt;br&gt;7，实际的如果去上学生活，大概需要注意些什么，要做好一些什么心理准备之类的&lt;br&gt;在日本一切生活上的问题都不是问题。&lt;br&gt;最需要注意的，如果你不是想拿个文凭走人而是想有所学有所进步，&lt;br&gt;&lt;b&gt;一定一定不要光闷在中国人的圈子里。并且一定一定要选择好你交往的中国人圈子。&lt;/b&gt;&lt;br&gt;很多人的价值观仍旧和国内同步，还有很多人在日本去追求金钱以外的其他东西。难说对错，可是得想好自己要的是什么，自己要成为什么样的人，不要被环境影响而偏离了自己本来的路。&lt;br&gt;在日本人和中国人里面有很多奇人，走出去和他们交往会得到很多鼓励和启迪。对自己的发展会有很多正面的影响。&lt;br&gt;&lt;br&gt;推荐一部同是在日留学生的朋友拍的电影：子非鱼。前一段在优酷挺火的还。这导演是我非常敬佩的留学生之一。&lt;br&gt;他这个电影的道理不只是限于留学生的，但里面作为反面教材多少反映了大部分在日留学生的状态。&lt;br&gt;&lt;a class=&quot;video-box&quot; href=&quot;//link.zhihu.com/?target=http%3A//v.youku.com/v_show/id_XMzY5NzIxNDY0.html&quot; target=&quot;_blank&quot;&gt;              &lt;img class=&quot;thumbnail&quot; src=&quot;http://g1.ykimg.com/0100641F464F6B1F00CF97064313D670FC0A4F-50AD-00E5-5A05-20454DB96787&quot;&gt;&lt;span class=&quot;content&quot;&gt;                &lt;span class=&quot;title&quot;&gt;大学生电影节 13届原创作品 子非鱼（The Sardine）&lt;span class=&quot;z-ico-extern-gray&quot;&gt;&lt;/span&gt;&lt;span class=&quot;z-ico-extern-blue&quot;&gt;&lt;/span&gt;&lt;/span&gt;                &lt;span class=&quot;url&quot;&gt;&lt;span class=&quot;z-ico-video&quot;&gt;&lt;/span&gt;http://v.youku.com/v_show/id_XMzY5NzIxNDY0.html&lt;/span&gt;              &lt;/span&gt;            &lt;/a&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+谢喵。先来抛砖引玉一下。 <b>提前需要说明的是，在日本的中国人各自过着很不同的生活，有的人过的很开心有的人每天抱怨，所以每个人的看法都不一定全面。</b>所以我帮楼主又邀请了几个我知道的留学生。 1.学习生活上会对留学生有不公平待遇么？尤其是在现在中日关…
+
+<a href="/question/20472563/answer/15221623" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2012-09-11" target="_blank" href="/question/20472563/answer/15221623">编辑于 2012-09-11</a></p>
+
+</div>
+</div>
+<div class="feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-369441"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>466 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic2.zhimg.com/v2-aac5d5031502e58551a58afd3d6acaa1_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=15221623" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+<a href="#" class="ignore zu-autohide" name="dislike" data-tooltip="s$b$不感兴趣"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="undo-dislike-options" data-item_id="9">
+此内容将不会在动态中再次显示 <span class="zg-bull">&bull;</span> <a href="#" class="meta-item revert">撤销</a>
+<a href="#" class="ignore zu-autohide close"></a>
+</div>
+</div>
+
+
+</div>
+<a href="javascript:;" id="zh-load-more" data-method="next" class="zg-btn-white zg-r3px zu-button-more" style="display:none">更多</a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<div class="shameimaru-placeholder" data-loc="home_up" data-params='{}'></div>
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="zm-side-nav-group">
+<ul class="zm-side-nav" id="zg-sidebar-nav">
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/collections" data-za-c="collection" data-za-l="sidebar_collections" data-za-a="visit_collections">
+<i class="zg-icon zg-icon-sidenav-fav"></i>
+我的收藏
+<span class="zg-num">63</span>
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/question/following">
+<i class="zg-icon zg-icon-sidenav-follow"></i>
+我关注的问题
+</a>
+</li>
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link" href="/question/invited">
+<i class="zg-icon zg-icon-sidenav-invite"></i>
+邀请我回答的问题
+
+</a>
+</li>
+
+
+
+</ul>
+</div>
+<div class="zm-side-nav-group">
+<ul class="zm-side-nav">
+
+
+<li class="zm-side-nav-li rq3-publiceditlink" id="rq3-sidenav-link">
+<a class="zm-side-nav-link" href="/watch">
+<i class="zg-icon zg-icon-sidenav-publicedit"></i>
+公共编辑动态
+<span class="zg-num hidden">0</span>
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link z-ico-container" href="/community">
+<i class="z-ico-community"></i>
+社区服务中心
+</a>
+</li>
+
+<li class="zm-side-nav-li">
+<a class="zm-side-nav-link z-ico-container" href="/copyright">
+<i class="zg-icon icon icon-copyright"></i>
+版权服务中心
+</a>
+</li>
+
+
+</ul>
+</div>
+
+
+
+</div>
+</div>
+<div class="SidebarSection SidebarListNav zm-side-my-columns">
+<h3>知乎专栏</h3>
+
+<ul class="column-homepage zm-side-nav column-empty">
+<li class="zm-side-nav-li">
+<a class="column-homepage-link column-link zm-side-nav-link" href="http://zhuanlan.zhihu.com/" target="_blank">
+<i class="icon-column-logo sprite-sidebar-icon-column-normal"></i>
+<span class="name">专栏・发现</span>
+</a>
+</li>
+</ul>
+<ul class="zm-side-nav column-list">
+
+</ul>
+<script id="SidebarColumnItem-template" type="text/template">
+
+</script>
+<ul class="zm-side-nav">
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav SidebarListNav--noFollowLink">
+<h3><a href="https://www.zhihu.com/lives" class="SidebarListNav-sideLink Link--light" target="_blank">查看全部 &raquo;</a>知乎 Live ⚡️</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/795645767514734592" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic1.zhimg.com/3b8ebcf95403245ce03839f63384d910_s.jpg" srcset="https://pic1.zhimg.com/3b8ebcf95403245ce03839f63384d910_xs.jpg 2x" alt="电力专业本科毕业后的出路" />
+<span class="SidebarListNav-label">
+电力专业本科毕业后的出路
+</span>
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/794498605980450816" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic3.zhimg.com/ad9db96c648aa4afe136acba29add12a_s.jpg" srcset="https://pic3.zhimg.com/ad9db96c648aa4afe136acba29add12a_xs.jpg 2x" alt="重庆火锅的正确吃法" />
+<span class="SidebarListNav-label">
+重庆火锅的正确吃法
+</span>
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="https://www.zhihu.com/lives/787359344776740864" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://pic3.zhimg.com/0ed8dda9a_s.jpg" srcset="https://pic3.zhimg.com/0ed8dda9a_xs.jpg 2x" alt="💡 如何统筹团队的沟通、协作和执行？" />
+<span class="SidebarListNav-label">
+💡 如何统筹团队的沟通、协作和执行？
+</span>
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav js-sidebarRoundtable">
+<h3><a href="/roundtable" class="SidebarListNav-sideLink Link--light">查看全部 &raquo;</a>知乎圆桌</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+
+<a data-follow="rt:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-burnout"><i class="z-icon-follow"></i>关注圆桌</a>
+
+<a class="SidebarListNav-itemLink" href="/roundtable/burnout">
+<img class="Avatar SidebarListNav-avatar" src="https://pic4.zhimg.com/v2-125f9df461420b666a9c3d0af361192f_s.jpg" srcset="https://pic4.zhimg.com/v2-125f9df461420b666a9c3d0af361192f_xs.jpg 2x" alt="职业倦怠与跳槽须知" data-hovercard="r$b$burnout" />
+<span class="SidebarListNav-label" data-hovercard="r$b$burnout">
+职业倦怠与跳槽须知
+</span>
+
+<span class="SidebarListNav-hint SidebarListNav-hint--hoverHidden">还有 4 天结束</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+
+<a class="SidebarListNav-itemLink" href="/roundtable/season1">
+<img class="Avatar SidebarListNav-avatar" src="https://pic4.zhimg.com/v2-8b5739f587dc48be9c14a213a9bb92b3_s.jpg" srcset="https://pic4.zhimg.com/v2-8b5739f587dc48be9c14a213a9bb92b3_xs.jpg 2x" alt="我爱看美剧" data-hovercard="r$b$season1" />
+<span class="SidebarListNav-label" data-hovercard="r$b$season1">
+我爱看美剧
+</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+
+<a class="SidebarListNav-itemLink" href="/roundtable/xmasgames">
+<img class="Avatar SidebarListNav-avatar" src="https://pic2.zhimg.com/v2-9ef0569382235a2d89ad98885943f7fd_s.jpg" srcset="https://pic2.zhimg.com/v2-9ef0569382235a2d89ad98885943f7fd_xs.jpg 2x" alt="NBA 赛场内外" data-hovercard="r$b$xmasgames" />
+<span class="SidebarListNav-label" data-hovercard="r$b$xmasgames">
+NBA 赛场内外
+</span>
+
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav">
+<h3><a href="/publications" class="SidebarListNav-sideLink Link--light" target="_blank">查看全部 &raquo;</a>知乎书店</h3>
+<ul class="SidebarListNav-list">
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/weekly/119553652" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/weekly.65279d61.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/weekly@2x.78fb79ac.png">
+<span class="SidebarListNav-label">
+2016：知乎日报年度精选
+</span>
+
+<span class="SidebarListNav-hint">新上架</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/hour/119553663" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/hour.3d371c99.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/hour@2x.f5499fd8.png">
+<span class="SidebarListNav-label">
+与设计师同游芬兰
+</span>
+
+<span class="SidebarListNav-hint">新上架</span>
+
+</a>
+</li>
+
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink" href="/publications/nacl/19551205" target="_blank">
+<img class="Avatar SidebarListNav-avatar" src="https://static.zhihu.com/static/revved/img/ebooks/nacl.656ec1c4.png"
+srcset="https://static.zhihu.com/static/revved/img/ebooks/nacl@2x.b5f3a720.png">
+<span class="SidebarListNav-label">
+汽车是怎么造出来的
+</span>
+
+</a>
+</li>
+
+</ul>
+</div>
+<div class="SidebarSection SidebarListNav">
+<ul class="SidebarListNav-list">
+<li class="SidebarListNav-listItem">
+<a class="SidebarListNav-itemLink DownloadApp-link" href="#">
+<i class="SidebarListNav-avatar sprite-sidebar-icon-zhi"></i>
+<span class="SidebarListNav-label">
+下载 App
+</span>
+</a>
+</li>
+</ul>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="home_bottom" data-params='{}'></div>
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/question/19581624" target="_blank">知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2016 知乎</span>
+
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{},"section":{},"editor":[]}</script>
+<script type="text/json" class="json-inline" data-name="current_user">["\u5e9e\u6df1","pang-shen-50","https:\/\/pic1.zhimg.com\/da8e974dc_s.jpg","ce95fa7ba6e8bf5c952136b399d053dd","\u778e\u641e",0,0,true,"ps_andy@163.com","http:\/\/mail.163.com",0,true,false,false,"41147393114112",false,false,false,true,null]</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null,false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1391739547000,"now":1483179757000,"abtest_mask":"---------1--------------------","user_attr":[1,0,0,"-",1],"user_hash":"ce95fa7ba6e8bf5c952136b399d053dd"}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.452d4bea.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.d68065d5.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.7c781d5f.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.4cbd0116.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.bd790496.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.e5dd753f.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.15ae4a63.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.a9264ff0.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.766d3812.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.da21b685.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.3a9d80cd.js"}</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.bbd2f231.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.70b408e7.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.6b4c43d2.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.05398a7a.js"></script>
+<meta name="entry" content="ZH.entryHome" data-module-id="page-main">
+
+<script type="text/zscript" znonce="41d4a8ca88ab4c9888e35dd9e9a65b0c"></script>
+
+<input type="hidden" name="_xsrf" value="f4b4da3b5bef445ff68142461fbcd811"/>
+</body>
+</html>
