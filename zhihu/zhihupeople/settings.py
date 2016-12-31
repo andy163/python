@@ -8,7 +8,7 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-
+import os
 BOT_NAME = 'zhihupeople'
 
 SPIDER_MODULES = ['zhihupeople.spiders']
@@ -94,3 +94,22 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# 广度优先
+DEPTH_PRIORITY = 1
+SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleFifoDiskQueue'
+SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
+
+# 项目路径
+PROJECT_DIR = os.path.dirname(os.path.abspath(os.path.curdir))
+
+# mongodb配置
+MONGO_URI = 'mongodb://116.251.210.207:27017'
+
+# pipeline设置
+ITEM_PIPELINES = {
+    'zhihupeople.pipelines.ZhihuPeoplePipeline': 500,
+}
+
+# 异步任务队列
+BROKER_URL = 'amqp://guest:guest@localhost:5672//'
