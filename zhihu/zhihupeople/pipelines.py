@@ -54,7 +54,6 @@ class ZhihuPeoplePipeline(object):
             download_pic(image_url, image_path)
 
         collection = self.db['people']
-
         collection.update({'zhihu_id': zhihu_id},
                           dict(item), upsert=True)
 
@@ -82,11 +81,8 @@ class ZhihuPeoplePipeline(object):
         """
         处理item
         """
-        image_url = item['image_url']
-        if image_url :
+        if type(item).__name__ == 'MyZhihuPeopleItem':
             self._process_people(item)
-        if isinstance(item, MyZhihuPeopleItem):
-            self._process_people(item)
-        elif isinstance(item, ZhihuRelationItem):
+        elif type(item).__name__ == 'ZhihuRelationItem':
             self._process_relation(item)
         return item
